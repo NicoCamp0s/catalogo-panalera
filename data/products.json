@@ -1,0 +1,357 @@
+[
+  {
+    "id": 1,
+    "name": "Pañales babysec Ultra Soft Talle P x50",
+    "description": "Los pañales descartables Babysec Ultra® cuentan con extracto de algodón y cintas reajustables.",
+    "price": 8000,
+    "priceCard": 8400,
+    "image": "/images/babysec-p-50.png"
+  },
+  {
+    "id": 2,
+    "name": "Pañales babysec Ultra Soft Talle M x48",
+    "description": "Los pañales descartables Babysec Ultra® cuentan con extracto de algodón y cintas reajustables.",
+    "price": 7600,
+    "priceCard": 8000,
+    "image": "/images/babysec-m-48.png"
+  },
+  {
+    "id": 3,
+    "name": "Pañales Babysec Ultra Soft Talle G x40",
+    "description": "Los pañales descartables Babysec Ultra® cuentan con extracto de algodón y cintas reajustables.",
+    "price": 6900,
+    "priceCard": 7200,
+    "image": "/images/babysec-g-40.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Pañales Babysec Ultra Soft Talle XG x32",
+    "description": "Los pañales descartables Babysec Ultra® cuentan con extracto de algodón y cintas reajustables.",
+    "price": 6900,
+    "priceCard": 7200,
+    "image": "/images/babysec-xg-32.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Pañales Babysec Ultra Soft Talle XXG x30",
+    "description": "Los pañales descartables Babysec Ultra® cuentan con extracto de algodón y cintas reajustables.",
+    "price": 6900,
+    "priceCard": 7200,
+    "image": "/images/babysec-xxg-30.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Pañales Babysec Ultra Soft Superpack Talle M x68",
+    "description": "Los pañales descartables Babysec Ultra® cuentan con extracto de algodón y cintas reajustables.",
+    "price": 6900,
+    "priceCard": 7200,
+    "image": "/images/babysec-m-68.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Pañales Babysec Ultra Soft Superpack Talle G x60",
+    "description": "Los pañales descartables Babysec Ultra® cuentan con extracto de algodón y cintas reajustables.",
+    "price": 6900,
+    "priceCard": 7200,
+    "image": "/images/babysec-g-60.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Pañales Babysec Ultra Soft Superpack Talle XG x52",
+    "description": "Los pañales descartables Babysec Ultra® cuentan con extracto de algodón y cintas reajustables.",
+    "price": 6900,
+    "priceCard": 7200,
+    "image": "/images/babysec-xg-52.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Pañales Babysec Ultra Soft Superpack Talle XXG 50",
+    "description": "Los pañales descartables Babysec Ultra® cuentan con extracto de algodón y cintas reajustables.",
+    "price": 6900,
+    "priceCard": 7200,
+    "image": "/images/babysec-xxg-50.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Pañales Babysec Premium Soft Talle P x50",
+    "description": "Babysec Premium es un pañal hipoalergénico que le entrega a tu bebé hasta 12 horas de absorción, manteniendo su piel seca toda la noche.",
+    "price": 6900,
+    "priceCard": 7200,
+    "image": "/images/babysec-p-50.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Pañales Babysec Premium Soft Talle M x48",
+    "description": "Babysec Premium es un pañal hipoalergénico que le entrega a tu bebé hasta 12 horas de absorción, manteniendo su piel seca toda la noche.",
+    "price": 6900,
+    "priceCard": 7200,
+    "image": "/images/babysec-p-50.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Pañales Babysec Premium Soft Talle G x40",
+    "description": "Babysec Premium es un pañal hipoalergénico que le entrega a tu bebé hasta 12 horas de absorción, manteniendo su piel seca toda la noche.",
+    "price": 6900,
+    "priceCard": 7200,
+    "image": "/images/babysec-p-50.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Pañales Babysec Premium Soft Talle XG x32",
+    "description": "Babysec Premium es un pañal hipoalergénico que le entrega a tu bebé hasta 12 horas de absorción, manteniendo su piel seca toda la noche.",
+    "price": 6900,
+    "priceCard": 7200,
+    "image": "/images/babysec-p-50.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Pañales Babysec Premium Soft Talle XXG x30",
+    "description": "Babysec Premium es un pañal hipoalergénico que le entrega a tu bebé hasta 12 horas de absorción, manteniendo su piel seca toda la noche.",
+    "price": 6900,
+    "priceCard": 7200,
+    "image": "/images/babysec-p-50.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Pañales Babysec Premium Soft Superpack Talle M x68",
+    "description": "Babysec Premium es un pañal hipoalergénico que le entrega a tu bebé hasta 12 horas de absorción, manteniendo su piel seca toda la noche.",
+    "price": 6900,
+    "priceCard": 7200,
+    "image": "/images/babysec-p-50.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Pañales Babysec Premium Soft Superpack Talle G x60",
+    "description": "Babysec Premium es un pañal hipoalergénico que le entrega a tu bebé hasta 12 horas de absorción, manteniendo su piel seca toda la noche.",
+    "price": 6900,
+    "priceCard": 7200,
+    "image": "/images/babysec-p-50.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Pañales Babysec Premium Soft Superpack Talle XG x48",
+    "description": "Babysec Premium es un pañal hipoalergénico que le entrega a tu bebé hasta 12 horas de absorción, manteniendo su piel seca toda la noche.",
+    "price": 6900,
+    "priceCard": 7200,
+    "image": "/images/babysec-p-50.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Pañales Babysec Premium Soft Superpack Talle XXG x44",
+    "description": "Babysec Premium es un pañal hipoalergénico que le entrega a tu bebé hasta 12 horas de absorción, manteniendo su piel seca toda la noche.",
+    "price": 6900,
+    "priceCard": 7200,
+    "image": "/images/babysec-p-50.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Pañales Babysec Premium Soft Talle P x50",
+    "description": "Babysec Premium es un pañal hipoalergénico que le entrega a tu bebé hasta 12 horas de absorción, manteniendo su piel seca toda la noche.",
+    "price": 6900,
+    "priceCard": 7200,
+    "image": "/images/babysec-p-50.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Pañales Babysec Super Premium Talle RN x20",
+    "description": "Babysec Premium es un pañal hipoalergénico que le entrega a tu bebé hasta 12 horas de absorción, manteniendo su piel seca toda la noche.",
+    "price": 6900,
+    "priceCard": 7200,
+    "image": "/images/babysec-p-50.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Pañales Huggies Classic Talle M x68",
+    "description": "Los pañales descartables Babysec Ultra® cuentan con extracto de algodón y cintas reajustables.",
+    "price": 6900,
+    "priceCard": 7200,
+    "image": "/images/babysec-p-50.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Pañales Huggies Classic Talle G x60",
+    "description": "Los pañales descartables Babysec Ultra® cuentan con extracto de algodón y cintas reajustables.",
+    "price": 6900,
+    "priceCard": 7200,
+    "image": "/images/babysec-p-50.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Pañales Huggies Classic Talle XG x52",
+    "description": "Los pañales descartables Babysec Ultra® cuentan con extracto de algodón y cintas reajustables.",
+    "price": 6900,
+    "priceCard": 7200,
+    "image": "/images/babysec-p-50.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Pañales Huggies Classic Talle XXG x50",
+    "description": "Los pañales descartables Babysec Ultra® cuentan con extracto de algodón y cintas reajustables.",
+    "price": 6900,
+    "priceCard": 7200,
+    "image": "/images/babysec-p-50.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Pañales Huggies Classic Talle XXXG x48",
+    "description": "Los pañales descartables Babysec Ultra® cuentan con extracto de algodón y cintas reajustables.",
+    "price": 6900,
+    "priceCard": 7200,
+    "image": "/images/babysec-p-50.jpg"
+  },
+{
+    "id": 100,
+    "name": "Pañales Huggies Flexi Confort M x68",
+    "description": "Huggies Flexi Confort Hiperpack - Talle M (68 unidades)",
+    "price": 9900,
+    "priceCard": 10300,
+    "image": "/images/huggies-flexi-m-68.jpg"
+  },
+  {
+    "id": 101,
+    "name": "Pañales Huggies Flexi Confort G x60",
+    "description": "Huggies Flexi Confort Hiperpack - Talle G (60 unidades)",
+    "price": 9900,
+    "priceCard": 10300,
+    "image": "/images/huggies-flexi-g-60.jpg"
+  },
+  {
+    "id": 102,
+    "name": "Pañales Huggies Flexi Confort XG x52",
+    "description": "Huggies Flexi Confort Hiperpack - Talle XG (52 unidades)",
+    "price": 9900,
+    "priceCard": 10300,
+    "image": "/images/huggies-flexi-xg-52.jpg"
+  },
+  {
+    "id": 103,
+    "name": "Pañales Huggies Flexi Confort XXG x50",
+    "description": "Huggies Flexi Confort Hiperpack - Talle XXG (50 unidades)",
+    "price": 9900,
+    "priceCard": 10300,
+    "image": "/images/huggies-flexi-xxg-50.jpg"
+  },
+  {
+    "id": 104,
+    "name": "Pañales Huggies Flexi Confort XXXG x48",
+    "description": "Huggies Flexi Confort Hiperpack - Talle XXXG (48 unidades)",
+    "price": 9900,
+    "priceCard": 10300,
+    "image": "/images/huggies-flexi-xxxg-48.jpg"
+  },
+
+  {
+    "id": 105,
+    "name": "Pañales Huggies Ultraconfort M x68",
+    "description": "Huggies Ultraconfort - Talle M (68 unidades)",
+    "price": 9900,
+    "priceCard": 10300,
+    "image": "/images/huggies-ultra-m-68.jpg"
+  },
+  {
+    "id": 106,
+    "name": "Pañales Huggies Ultraconfort G x60",
+    "description": "Huggies Ultraconfort - Talle G (60 unidades)",
+    "price": 9900,
+    "priceCard": 10300,
+    "image": "/images/huggies-ultra-g-60.jpg"
+  },
+  {
+    "id": 107,
+    "name": "Pañales Huggies Ultraconfort XG x52",
+    "description": "Huggies Ultraconfort - Talle XG (52 unidades)",
+    "price": 9900,
+    "priceCard": 10300,
+    "image": "/images/huggies-ultra-xg-52.jpg"
+  },
+  {
+    "id": 108,
+    "name": "Pañales Huggies Ultraconfort XXG x50",
+    "description": "Huggies Ultraconfort - Talle XXG (50 unidades)",
+    "price": 9900,
+    "priceCard": 10300,
+    "image": "/images/huggies-ultra-xxg-50.jpg"
+  },
+
+  {
+    "id": 109,
+    "name": "Pañales Huggies Protect Plus M x68",
+    "description": "Huggies Protect Plus - Talle M (68 unidades)",
+    "price": 9900,
+    "priceCard": 10300,
+    "image": "/images/huggies-protect-m-68.jpg"
+  },
+  {
+    "id": 110,
+    "name": "Pañales Huggies Protect Plus G x60",
+    "description": "Huggies Protect Plus - Talle G (60 unidades)",
+    "price": 9900,
+    "priceCard": 10300,
+    "image": "/images/huggies-protect-g-60.jpg"
+  },
+  {
+    "id": 111,
+    "name": "Pañales Huggies Protect Plus XG x52",
+    "description": "Huggies Protect Plus - Talle XG (52 unidades)",
+    "price": 9900,
+    "priceCard": 10300,
+    "image": "/images/huggies-protect-xg-52.jpg"
+  },
+  {
+    "id": 112,
+    "name": "Pañales Huggies Protect Plus XXG x50",
+    "description": "Huggies Protect Plus - Talle XXG (50 unidades)",
+    "price": 9900,
+    "priceCard": 10300,
+    "image": "/images/huggies-protect-xxg-50.jpg"
+  },
+  {
+    "id": 113,
+    "name": "Pañales Huggies Protect Plus XXXG x48",
+    "description": "Huggies Protect Plus - Talle XXXG (48 unidades)",
+    "price": 9900,
+    "priceCard": 10300,
+    "image": "/images/huggies-protect-xxxg-48.jpg"
+  },
+
+  {
+    "id": 114,
+    "name": "Pañales Huggies Natural Care M x68",
+    "description": "Huggies Natural Care - Talle M (68 unidades)",
+    "price": 9900,
+    "priceCard": 10300,
+    "image": "/images/huggies-natural-m-68.jpg"
+  },
+  {
+    "id": 115,
+    "name": "Pañales Huggies Natural Care G x60",
+    "description": "Huggies Natural Care - Talle G (60 unidades)",
+    "price": 9900,
+    "priceCard": 10300,
+    "image": "/images/huggies-natural-g-60.jpg"
+  },
+  {
+    "id": 116,
+    "name": "Pañales Huggies Natural Care XG x52",
+    "description": "Huggies Natural Care - Talle XG (52 unidades)",
+    "price": 9900,
+    "priceCard": 10300,
+    "image": "/images/huggies-natural-xg-52.jpg"
+  },
+  {
+    "id": 117,
+    "name": "Pañales Huggies Natural Care XXG x50",
+    "description": "Huggies Natural Care - Talle XXG (50 unidades)",
+    "price": 9900,
+    "priceCard": 10300,
+    "image": "/images/huggies-natural-xxg-50.jpg"
+  },
+  {
+    "id": 118,
+    "name": "Pañales Huggies Natural Care XXXG x48",
+    "description": "Huggies Natural Care - Talle XXXG (48 unidades)",
+    "price": 9900,
+    "priceCard": 10300,
+    "image": "/images/huggies-natural-xxxg-48.jpg"
+  }
+]

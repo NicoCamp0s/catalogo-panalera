@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Pañales Babysec Ultra Soft (TODOS LOS TALLES)",
+    "description": "a",
+    "price": 8200,
+    "priceCard": 8700,
+    "image": "/pañales/babysec.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Pañales Babysec Ultra Soft Superpack (TODOS LOS TALLES)",
+    "description": "a",
+    "price": 8200,
+    "priceCard": 8700,
+    "image": "/pañales/babysec-ultra.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Pañales Babysec Premium Soft (TODOS LOS TALLES)",
+    "description": "a",
+    "price": 8200,
+    "priceCard": 8700,
+    "image": "/pañales/babysec-premium.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Pañales Babysec Premium Soft Superpack (TODOS LOS TALLES)",
+    "description": "a",
+    "price": 8200,
+    "priceCard": 8700,
+    "image": "/pañales/babysec-premium-hiper.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Pañales Babysec Super Premium (CONSULTAR TALLES)",
+    "description": "a",
+    "price": 8200,
+    "priceCard": 8700,
+    "image": "/pañales/babysec-s-p.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Pañales Huggies Classic (TODOS LOS TALLES)",
+    "description": "a",
+    "price": 8200,
+    "priceCard": 8700,
+    "image": "/pañales/huggies-c.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Pañales Huggies Natural Care (TODOS LOS TALLES)",
+    "description": "a",
+    "price": 8200,
+    "priceCard": 8700,
+    "image": "/pañales/huggies-n-c.jpg"
+  },
+  {
+    "id": 78,
+    "name": "Pañales Huggies Flexi Comfort (TODOS LOS TALLES)",
+    "description": "a",
+    "price": 8200,
+    "priceCard": 8700,
+    "image": "/pañales/huggies-f-c.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Pañales Huggies Protect Plus (TODOS LOS TALLES)",
+    "description": "a",
+    "price": 8200,
+    "priceCard": 8700,
+    "image": "/pañales/huggies-p-p.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Pañales Huggies UltraConfort (TODOS LOS TALLES)",
+    "description": "a",
+    "price": 8200,
+    "priceCard": 8700,
+    "image": "/pañales/huggies-u.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Pañales Pampers Baby-Dry (TODOS LOS TALLES)",
+    "description": "a",
+    "price": 8200,
+    "priceCard": 8700,
+    "image": "/pañales/pampers-b-d.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Pañales Pampers Babysan (TODOS LOS TALLES)",
+    "description": "a",
+    "price": 8200,
+    "priceCard": 8700,
+    "image": "/pañales/pampers-b-s.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Pañales Pampers deluxe Protection (TODOS LOS TALLES)",
+    "description": "a",
+    "price": 8200,
+    "priceCard": 8700,
+    "image": "/pañales/pampers-d-p.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Pañales Pampers Pants (TODOS LOS TALLES)",
+    "description": "a",
+    "price": 8200,
+    "priceCard": 8700,
+    "image": "/pañales/pampers-p.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Pañales Pampers Pants Premium care (TODOS LOS TALLES)",
+    "description": "a",
+    "price": 8200,
+    "priceCard": 8700,
+    "image": "/pañales/pampers-p-c.jpg"
+  }
+]
