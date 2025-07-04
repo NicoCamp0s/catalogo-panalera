@@ -11,15 +11,19 @@ export default function Home() {
   const [searchTerm, setSearchTerm] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
   const productsRef = useRef<HTMLDivElement>(null);
-
+  const hasScrolled = useRef(false);
   const products: Product[] = productsJson;
 
+useEffect(() => {
+  if (!hasScrolled.current) {
+    hasScrolled.current = true;
+    return; // No hacer scroll en el primer render
+  }
 
-  useEffect(() => {
-    if (productsRef.current) {
-      productsRef.current.scrollIntoView({ behavior: 'smooth' });
-    }
-  }, [currentPage]);
+  if (productsRef.current) {
+    productsRef.current.scrollIntoView({ behavior: 'smooth' });
+  }
+}, [currentPage]);
 
   // Filtro por búsqueda
   const filteredProducts = products.filter((product) =>
@@ -41,27 +45,32 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-emerald-50 p-4">
-      {/* Logo */}
-      <div className="bg-emerald-200 p-4 text-center mb-6 rounded-xl">
-        <Image
-          src="/images/panalera_nico.png"
-          alt="Logo Pañalera Nico"
-          width={600}
-          height={300}
-          className="mx-auto"
-        />
+      {/* Logo + Envío */}
+      <div className="bg-emerald-100 mb-8 rounded-xl overflow-hidden shadow-md">
+        {/* Logo */}
+        <div className="p-4 text-center border-b border-emerald-200 bg-emerald-200">
+          <Image
+            src="/images/panalera_nico.png"
+            alt="Logo Pañalera Nico"
+            width={600}
+            height={300}
+            className="mx-auto"
+            priority
+          />
+        </div>
+        {/* Cartel de envíos */}
+        <div className="bg-yellow-300 text-yellow-900 font-semibold text-center py-3 text-base sm:text-lg animate-pulse">
+          📦 ¡Envíos a partir de $20.000!
+        </div>
       </div>
-
       {/* Carrusel */}
       <div className="mx-auto mb-8 px-4" style={{ maxWidth: '1280px' }}>
         <Carousel />
       </div>
-
       {/* Título */}
-      <h1 className="text-3xl font-extrabold text-center mb-8 text-emerald-800">
+      <h1 className="text-4xl sm:text-5xl font-extrabold text-center mb-10 text-emerald-800 drop-shadow-sm tracking-tight">
         🛍️ Catálogo de Productos
       </h1>
-
       {/* Buscador */}
       <div className="relative max-w-md mx-auto mb-6">
         <input
@@ -75,7 +84,6 @@ export default function Home() {
           🔍
         </div>
       </div>
-
       {/* Productos */}
       {currentProducts.length === 0 ? (
         <p className="text-center text-gray-500">No se encontraron productos.</p>
@@ -88,7 +96,6 @@ export default function Home() {
           ))}
         </div>
       )}
-
       {/* Paginación */}
       {totalPages > 1 && (
         <div className="flex justify-center gap-2 mt-8 flex-wrap">
@@ -107,7 +114,6 @@ export default function Home() {
           ))}
         </div>
       )}
-
       {/* WhatsApp sección informativa */}
       <div className="mt-12 text-center max-w-xl mx-auto bg-white p-6 rounded-xl shadow-md border border-gray-200">
         <h2 className="text-xl font-semibold mb-2">¿No encontrás lo que estás buscando?</h2>
@@ -123,7 +129,6 @@ export default function Home() {
           Contactar por WhatsApp
         </a>
       </div>
-
       {/* Botón flotante de WhatsApp */}
       <a
         href="https://wa.me/541161574074"
