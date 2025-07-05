@@ -165,9 +165,9 @@
     "id": 19,
     "name": "Pañales Huggies UltraConfort (M, G, XG, XXG, XXXG)",
     "description": "a",
-    "price": 8200,
-    "transfer": 2400,
-    "priceCard": 8700,
+    "price": 20650,
+    "transfer": 20650,
+    "priceCard": 23750,
     "image": "/pañales/huggies-u.png"
   },
   {
@@ -246,9 +246,9 @@
     "id": 28,
     "name": "Pañales Pampers Pants (TODOS LOS TALLES)",
     "description": "a",
-    "price": 30500,
-    "transfer": 30500,
-    "priceCard": 35100,
+    "price": 16800,
+    "transfer": 16800,
+    "priceCard": 19350,
     "image": "/pañales/pampers-p.png"
   },
   {
