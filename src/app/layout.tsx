@@ -12,16 +12,24 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+export const viewport = {
+  themeColor: "#ffffff",
+};
+
 export const metadata: Metadata = {
   title: {
     default: "Pañalera Nico",
     template: "%s | Pañalera Nico",
   },
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
+  metadataBase: new URL("https://catalogo-panaleranico.vercel.app"),
   description: "Pañales, accesorios y más para bebés. Compra fácil y rápido.",
   keywords: ["pañalera", "pañales", "bebés", "productos infantiles", "babysec", "pampers", "recien nacido", "accesorios"],
   authors: [{ name: "Nicolás Campos", url: "https://catalogo-panaleranico.vercel.app/" }],
   creator: "Nicolás Campos",
-  themeColor: "#ffffff", // o el color principal de tu marca
   openGraph: {
     title: "Pañalera Nico",
     description: "Todo lo que tu bebé necesita, en un solo lugar.",
@@ -29,7 +37,7 @@ export const metadata: Metadata = {
     siteName: "Pañalera Nico",
     images: [
       {
-        url: "/images/panalera_nico", // Debe existir en public/
+        url: "/images/panalera_nico.png", // Debe existir en public/
         width: 1200,
         height: 630,
         alt: "Pañalera Nico",

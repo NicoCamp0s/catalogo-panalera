@@ -120,9 +120,9 @@
     "id": 14,
     "name": "Pañales Huggies Flexi Comfort (M, G, XG, XXG, XXXG)",
     "description": "a",
-    "price": 8200,
-    "transfer": 8200,
-    "priceCard": 8700,
+    "price": 21780,
+    "transfer": 21780,
+    "priceCard": 25050,
     "image": "/pañales/huggies-f-c.png"
   },
   {
@@ -131,7 +131,7 @@
     "description": "a",
     "price": 15900,
     "transfer": 15900,
-    "priceCard": 8700,
+    "priceCard": 18285,
     "image": "/pañales/huggies-f-p.png"
   },
   {
@@ -140,7 +140,7 @@
     "description": "a",
     "price": 12150,
     "transfer": 12150,
-    "priceCard": 14000,
+    "priceCard": 13980,
     "image": "/pañales/huggies-f-rn.png"
   },
   {
@@ -294,16 +294,7 @@
     "price": 4370,
     "transfer": 4370,
     "priceCard": 5030,
-    "image": "/pañales/pampers-p-c.jpg"
-  },
-    {
-    "id": 34,
-    "name": "Toallitas Húmedas johnson´s x48 (violetas)",
-    "description": "a",
-    "price": 4370,
-    "transfer": 4370,
-    "priceCard": 5030,
-    "image": "/pañales/pampers-p-c.jpg"
+    "image": "/pañales/t-h-j-a.png"
   },
   {
     "id": 35,
@@ -388,38 +379,65 @@
   },
   {
     "id": 44,
-    "name": "Acondicionador Jhonsons Baby 200Ml ",
+    "name": "Acondicionador Jhonsons Baby 200Ml",
     "description": "a",
-    "price": 10900,
-    "transfer": 2400,
-    "priceCard": 11800,
+    "price": 4940,
+    "transfer": 4940,
+    "priceCard": 5690,
     "image": "/pañales/a-j-v.png"
   },
   {
     "id": 45,
-    "name": "",
-    "description": "a",
-    "price": 10900,
-    "transfer": 2400,
-    "priceCard": 11800,
-    "image": "/pañales/"
+    "name": "Shampoo Jhonsons Baby 200Ml",
+    "description": "consultar stock de los modelos",
+    "price": 4940,
+    "transfer": 4940,
+    "priceCard": 5690,
+    "image": "/pañales/s-j-b.png"
   },
   {
     "id": 46,
-    "name": "",
+    "name": "Shampoo Jhonsons Baby 400Ml",
     "description": "a",
-    "price": 10900,
-    "transfer": 2400,
-    "priceCard": 11800,
-    "image": "/pañales/"
+    "price": 10850,
+    "transfer": 10850,
+    "priceCard": 12500,
+    "image": "/pañales/s-j-b-400.png"
   },
   {
     "id": 47,
-    "name": "",
+    "name": "Acondicionador Jhonsons Baby 400Ml",
     "description": "a",
-    "price": 10900,
-    "transfer": 2400,
-    "priceCard": 11800,
-    "image": "/pañales/"
+    "price": 10850,
+    "transfer": 10850,
+    "priceCard": 12500,
+    "image": "/pañales/a-j-b.png"
+  },
+  {
+    "id": 48,
+    "name": "Pelela 3 en 1 Love",
+    "description": "a",
+    "price": 12000,
+    "transfer": 12000,
+    "priceCard": 13800,
+    "image": "/pañales/pelela-3-piezas.png"
+  },
+  {
+    "id": 49,
+    "name": "Bañera Bebe Plegable Mega Baby",
+    "description": "a",
+    "price": 28000,
+    "transfer": 28000,
+    "priceCard": 19320,
+    "image": "/pañales/bañera-plegable.png"
+  },
+  {
+    "id": 50,
+    "name": "Bañera Bebe",
+    "description": "a",
+    "price": 16800,
+    "transfer": 16800,
+    "priceCard": 19320,
+    "image": "/pañales/bañera.png"
   }
 ]
