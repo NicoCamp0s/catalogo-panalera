@@ -38,9 +38,9 @@ export const metadata: Metadata = {
     siteName: "Pañalera Nico",
     images: [
       {
-        url: "/images/panalera_nico.png", // Debe existir en public/
-        width: 1200,
-        height: 630,
+        url: "/images/panalera_nico.png",
+        width: 900,
+        height: 150,
         alt: "Pañalera Nico",
       },
     ],
