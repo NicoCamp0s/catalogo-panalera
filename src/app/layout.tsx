@@ -22,8 +22,9 @@ export const metadata: Metadata = {
     template: "%s | Pañalera Nico",
   },
   icons: {
-    icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
+    icon: "/icono.png",
+    shortcut: "/icono.png",
+    apple: "/icono.png",
   },
   metadataBase: new URL("https://catalogo-panaleranico.vercel.app"),
   description: "Pañales, accesorios y más para bebés. Compra fácil y rápido.",
