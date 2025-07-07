@@ -40,7 +40,7 @@
     "name": "Pañales Babysec Premium Soft (M, G, XG, XXG)",
     "description": "a",
     "price": 11000,
-    "transfer": 11000,
+    "transfer": 11800,
     "priceCard": 13050,
     "image": "/pañales/babysec-premium.jpg"
   },
@@ -184,7 +184,7 @@
     "name": "Pañales Pampers Baby-Dry (M, G, XG, XXG)",
     "description": "a",
     "price": 24000,
-    "transfer": 25000,
+    "transfer": 24000,
     "priceCard": 27600,
     "image": "/pañales/pampers-b-d.png"
   },
@@ -193,7 +193,7 @@
     "name": "Pañales Pampers Baby-Dry Talle P x56",
     "description": "a",
     "price": 17600,
-    "transfer": 18600,
+    "transfer": 17600,
     "priceCard": 20240,
     "image": "/pañales/pampers-b-d-p.png"
   },
@@ -211,7 +211,7 @@
     "name": "Pañales Pampers Babysan Talle P x52",
     "description": "a",
     "price": 13720,
-    "transfer": 14720,
+    "transfer": 13720,
     "priceCard": 15780,
     "image": "/pañales/pampers-b-s-p.png"
   },
@@ -220,7 +220,7 @@
     "name": "Pañales Pampers deluxe Protection (M, G, XG, XXG)",
     "description": "a",
     "price": 29000,
-    "transfer": 30000,
+    "transfer": 29000,
     "priceCard": 33350,
     "image": "/pañales/pampers-d-p.png"
   },
