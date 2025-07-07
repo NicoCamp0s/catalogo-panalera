@@ -201,9 +201,9 @@
     "id": 23,
     "name": "Pañales Pampers Babysan (M, G, XG, XXG, XXXG)",
     "description": "a",
-    "price": 22200,
-    "transfer": 23200,
-    "priceCard": 25530,
+    "price": 22300,
+    "transfer": 22300,
+    "priceCard": 25600,
     "image": "/pañales/pampers-b-s.png"
   },
     {
@@ -282,9 +282,9 @@
     "id": 32,
     "name": "Pañales Estrella baby (TODOS LOS TALLES)",
     "description": "a",
-    "price": 10900,
-    "transfer": 10900,
-    "priceCard": 11800,
+    "price": 11000,
+    "transfer": 11800,
+    "priceCard": 12650,
     "image": "/pañales/estrella-b.png"
   },
   {
