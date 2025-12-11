@@ -60,7 +60,7 @@ useEffect(() => {
         </div>
         {/* Cartel de envíos */}
         <div className="bg-yellow-300 text-yellow-900 font-semibold text-center py-3 text-base sm:text-lg animate-pulse">
-          📦 ¡Envíos a partir de $20.000!
+          📦 ¡Envíos a partir de $30.000!
         </div>
       </div>
       {/* Carrusel */}

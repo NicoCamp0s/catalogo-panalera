@@ -353,5 +353,25 @@
     "price": 9900,
     "priceCard": 10300,
     "image": "/images/huggies-natural-xxxg-48.jpg"
+  },
+  {
+    "comentario": "pañal borrado de la lista principal",
+    "id": 19,
+    "name": "Pañales Huggies UltraConfort (M, G, XG, XXG, XXXG)",
+    "description": "a",
+    "price": 21000,
+    "transfer": 21000,
+    "priceCard": 24150,
+    "image": "/pañales/huggies-u.png"
+  },
+  {
+    "comentario": "pañal borrado de la lista principal",
+    "id": 39,
+    "name": "Toallitas Babysec Ultra fresh x50",
+    "description": "a",
+    "price": 2000,
+    "transfer": 2000,
+    "priceCard": 2300,
+    "image": "/pañales/toallitas-b.png"
   }
 ]
