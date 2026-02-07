@@ -336,18 +336,18 @@
     "id": 41,
     "name": "protectores mamarios Doncella x12",
     "description": "a",
-    "price": 1600,
-    "transfer": 1600,
-    "priceCard": 1900,
+    "price": 1950,
+    "transfer": 1950,
+    "priceCard": 2242,
     "image": "/pañales/p-m-12.png"
   },
   {
     "id": 42,
     "name": "protectores mamarios Doncella x24",
     "description": "a",
-    "price": 2800,
-    "transfer": 2800,
-    "priceCard": 3220,
+    "price": 3200,
+    "transfer": 3200,
+    "priceCard": 3680,
     "image": "/pañales/p-m-24.png"
   },
   {
@@ -363,36 +363,36 @@
     "id": 44,
     "name": "Acondicionador Jhonsons Baby 200Ml",
     "description": "a",
-    "price": 5200,
-    "transfer": 5200,
-    "priceCard": 5980,
+    "price": 5460,
+    "transfer": 5460,
+    "priceCard": 6279,
     "image": "/pañales/a-j-v.png"
   },
   {
     "id": 45,
     "name": "Shampoo Jhonsons Baby 200Ml",
     "description": "consultar stock de los modelos",
-    "price": 5200,
-    "transfer": 5200,
-    "priceCard": 5980,
+    "price": 5460,
+    "transfer": 5460,
+    "priceCard": 6279,
     "image": "/pañales/s-j-b.png"
   },
   {
     "id": 46,
     "name": "Shampoo Jhonsons Baby 400Ml",
     "description": "a",
-    "price": 10850,
-    "transfer": 10850,
-    "priceCard": 12500,
+    "price": 11200,
+    "transfer": 11200,
+    "priceCard": 12880,
     "image": "/pañales/s-j-b-400.png"
   },
   {
     "id": 47,
     "name": "Acondicionador Jhonsons Baby 400Ml",
     "description": "a",
-    "price": 10850,
-    "transfer": 10850,
-    "priceCard": 12500,
+    "price": 11200,
+    "transfer": 11200,
+    "priceCard": 12880,
     "image": "/pañales/a-j-b.png"
   },
   {
@@ -421,5 +421,41 @@
     "transfer": 16800,
     "priceCard": 19320,
     "image": "/pañales/bañera.png"
+  },
+  {
+    "id": 51,
+    "name": "toallitas Toddler",
+    "description": "a",
+    "price": 2400,
+    "transfer": 2400,
+    "priceCard": 2760,
+    "image": "/pañales/Toallitas-t.jpeg"
+  },
+    {
+    "id": 52,
+    "name": "Baby Dove shampoo/acondiconador",
+    "description": "a",
+    "price": 6100,
+    "transfer": 6100,
+    "priceCard": 7015,
+    "image": "/pañales/babydove-Shampoo-acondicionador.jpeg"
+  },
+    {
+    "id": 53,
+    "name": "Baby Dove baño liquido",
+    "description": "a",
+    "price": 6300,
+    "transfer": 6300,
+    "priceCard": 7245,
+    "image": "/pañales/babydove-baño-liquido.jpeg"
+  },
+    {
+    "id": 54,
+    "name": "Baby Dove repuestos para baño liquido",
+    "description": "a",
+    "price": 4500,
+    "transfer": 4500,
+    "priceCard": 5175,
+    "image": "/pañales/babydove-repuestos-baño-liquidp.jpeg"
   }
 ]
