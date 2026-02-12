@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Pañales Babysec Ultra Soft (M, G, XG, XXG)",
     "description": "a",
-    "price": 8900,
+    "price": 8700,
     "transfer": 9300,
     "priceCard": 10700,
     "image": "/pañales/babysec.jpg"
@@ -21,8 +21,8 @@
     "id": 3,
     "name": "Pañales Babysec Ultra Soft Talle P x50",
     "description": "a",
-    "price": 12700,
-    "transfer": 12700,
+    "price": 8700,
+    "transfer": 9300,
     "priceCard": 14605,
     "image": "/pañales/babysec-ultra-p.png"
   },
@@ -31,7 +31,7 @@
     "name": "Pañales Babysec Ultra Soft Superpack (M, G, XG, XXG)",
     "description": "a",
     "price": 16600,
-    "transfer": 16600,    
+    "transfer": 17100,    
     "priceCard": 18745,
     "image": "/pañales/babysec-ultra.jpg"
   },
@@ -40,7 +40,7 @@
     "name": "Pañales Babysec Premium Soft (M, G, XG, XXG)",
     "description": "a",
     "price": 12500,
-    "transfer": 12500,
+    "transfer": 13500,
     "priceCard": 14375,
     "image": "/pañales/babysec-premium.jpg"
   },
@@ -57,8 +57,8 @@
     "id": 7,
     "name": "Pañales Babysec Super Premium Talle P x30",
     "description": "a",
-    "price": 11050,
-    "transfer": 11050,
+    "price": 11300,
+    "transfer": 11300,
     "priceCard": 12707,
     "image": "/pañales/babysec-super-p.png"
   },
@@ -76,17 +76,17 @@
     "name": "Pañales Huggies Classic (M, G, XG, XXG, XXXG)",
     "description": "a",
     "price": 19700,
-    "transfer": 19700,
-    "priceCard": 22655,
+    "transfer": 20200,
+    "priceCard": 23230,
     "image": "/pañales/huggies-classic.png"
   },
   {
     "id": 10,
     "name": "Pañales Huggies Classic Talle P x30",
     "description": "a",
-    "price": 8200,
-    "transfer": 8200,
-    "priceCard": 9430,
+    "price": 8500,
+    "transfer": 8500,
+    "priceCard": 9775,
     "image": "/pañales/huggies-c.png"
   },
   {
@@ -94,7 +94,7 @@
     "name": "Pañales Huggies Natural Care (M, G, XG, XXG, XXXG)",
     "description": "a",
     "price": 30500,
-    "transfer": 30500,
+    "transfer": 31000,
     "priceCard": 35075,
     "image": "/pañales/huggies-n-c.png"
   },
@@ -121,7 +121,7 @@
     "name": "Pañales Huggies Flexi Comfort (M, G, XG, XXG, XXXG)",
     "description": "a",
     "price": 26500,
-    "transfer": 26500,
+    "transfer": 27000,
     "priceCard": 30475,
     "image": "/pañales/huggies-f-c.png"
   },
@@ -148,7 +148,7 @@
     "name": "Pañales Huggies Protect Plus (M, G, XG, XXG, XXXG)",
     "description": "a",
     "price": 20500,
-    "transfer": 20500,
+    "transfer": 21000,
     "priceCard": 23575,
     "image": "/pañales/huggies-p-p.png"
   },
@@ -175,8 +175,8 @@
     "name": "Pañales Pampers Baby-Dry (M, G, XG, XXG)",
     "description": "a",
     "price": 32000,
-    "transfer": 32000,
-    "priceCard": 36800,
+    "transfer": 32500,
+    "priceCard": 37375,
     "image": "/pañales/pampers-b-d.png"
   },
   {
@@ -193,8 +193,8 @@
     "name": "Pañales Pampers Babysan (M, G, XG, XXG, XXXG)",
     "description": "a",
     "price": 24500,
-    "transfer": 24500,
-    "priceCard": 28175,
+    "transfer": 25000,
+    "priceCard": 28750,
     "image": "/pañales/pampers-b-s.png"
   },
   {
@@ -211,7 +211,7 @@
     "name": "Pañales Pampers deluxe Protection (M, G, XG, XXG)",
     "description": "a",
     "price": 36500,
-    "transfer": 36500,
+    "transfer": 37000,
     "priceCard": 41975,
     "image": "/pañales/pampers-d-p.png"
   },
@@ -219,9 +219,9 @@
     "id": 26,
     "name": "Pañales Pampers deluxe Protection Talle RN+ x56",
     "description": "a",
-    "price": 25500,
+    "price": 25000,
     "transfer": 25500,
-    "priceCard": 27370,
+    "priceCard": 29325,
     "image": "/pañales/pampers-d-p-rn-plus.png"
   },
   {
@@ -229,8 +229,8 @@
     "name": "Pañales Pampers deluxe Protection Talle RN x36",
     "description": "a",
     "price": 20000,
-    "transfer": 20000,
-    "priceCard": 23000,
+    "transfer": 21000,
+    "priceCard": 24150,
     "image": "/pañales/pampers-d-p-rn.png"
   },
   {
@@ -273,7 +273,7 @@
     "id": 32,
     "name": "Pañales Estrella baby (TODOS LOS TALLES)",
     "description": "a",
-    "price": 13000,
+    "price": 12500,
     "transfer": 13000,
     "priceCard": 14950,
     "image": "/pañales/estrella-b.png"

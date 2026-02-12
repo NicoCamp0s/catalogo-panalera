@@ -3,7 +3,9 @@ import { Product } from "@/types/Product";
 const whatsappNumber = "541161574074";
 
 export default function ProductCard({ product }: { product: Product }) {
-  const whatsappMessage = `Hola, ${product.name}.`;
+  const whatsappMessage = `Hola, consulto por: ${product.name}.`;
+
+  const calculatedPriceCard = Math.round(product.transfer * 1.15);
 
   return (
     <div className="group border border-gray-200 rounded-2xl p-4 shadow-md bg-white flex flex-col items-center transition-transform hover:scale-105 hover:shadow-lg">
@@ -29,7 +31,7 @@ export default function ProductCard({ product }: { product: Product }) {
 
       <div className="mt-2 text-center">
         <p className="text-sm text-gray-500">Precio con tarjeta</p>
-        <p className="text-xl text-pink-600 font-bold">${product.priceCard}</p>
+        <p className="text-xl text-pink-600 font-bold">${calculatedPriceCard}</p>
       </div>
 
       <a
