@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const images = [
   "/ofertas/oferta1.jpg",
-  // "/ofertas/oferta2.png",
+  "/ofertas/oferta2.png",
   "/ofertas/oferta3.png",
 ];
 
