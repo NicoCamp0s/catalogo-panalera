@@ -457,5 +457,14 @@
     "transfer": 4500,
     "priceCard": 5175,
     "image": "/pañales/babydove-repuestos-baño-liquidp.jpeg"
+  },
+  {
+    "id": 55,
+    "name": "Baby Dove Toallitas",
+    "description": "a",
+    "price": 4500,
+    "transfer": 4500,
+    "priceCard": 5175,
+    "image": "/pañales/babydove-toallitas.jpeg"
   }
 ]
