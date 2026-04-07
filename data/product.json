@@ -3,8 +3,8 @@
     "id": 1,
     "name": "Pañales Babysec Ultra Soft (M, G, XG, XXG)",
     "description": "a",
-    "price": 9300,
-    "transfer": 10700,
+    "price": 9100,
+    "transfer": 10100,
     "priceCard": 12305,
     "image": "/pañales/babysec.jpg"
   },
@@ -466,5 +466,14 @@
     "transfer": 4500,
     "priceCard": 5175,
     "image": "/pañales/babydove-toallitas.jpeg"
+  },
+  {
+    "id": 56,
+    "name": "Toddler pañales (Todos los talles, consultar stock)",
+    "description": "a",
+    "price": 11500,
+    "transfer": 12000,
+    "priceCard": 5175,
+    "image": "/pañales/Toddler.jpg"
   }
 ]
