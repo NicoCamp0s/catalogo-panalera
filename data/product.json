@@ -21,8 +21,8 @@
     "id": 3,
     "name": "Pañales Babysec Ultra Soft Talle P x50",
     "description": "a",
-    "price": 8700,
-    "transfer": 9300,
+    "price": 9100,
+    "transfer": 10100,
     "priceCard": 14605,
     "image": "/pañales/babysec-ultra-p.png"
   },
@@ -426,10 +426,10 @@
     "id": 51,
     "name": "toallitas Toddler",
     "description": "a",
-    "price": 2400,
-    "transfer": 2400,
+    "price": 2800,
+    "transfer": 2800,
     "priceCard": 2760,
-    "image": "/pañales/Toallitas-t.png"
+    "image": "/pañales/toallitas-t.png"
   },
     {
     "id": 52,
@@ -465,6 +465,6 @@
     "price": 11500,
     "transfer": 12000,
     "priceCard": 5175,
-    "image": "/pañales/Toddler.jpg"
+    "image": "/pañales/toddler.jpg"
   }
 ]
