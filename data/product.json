@@ -39,7 +39,7 @@
     "id": 5,
     "name": "Pañales Babysec Premium Soft (M, G, XG, XXG)",
     "description": "a",
-    "price": 12500,
+    "price": 12600,
     "transfer": 13000,
     "priceCard": 14375,
     "image": "/pañales/babysec-premium.jpg"
@@ -255,8 +255,8 @@
     "id": 30,
     "name": "Pañales Duffy (TODOS LOS TALLES)",
     "description": "a",
-    "price": 8500,
-    "transfer": 9000,
+    "price": 8400,
+    "transfer": 8900,
     "priceCard": 9000,
     "image": "/pañales/duffy.png"
   },
@@ -273,8 +273,8 @@
     "id": 32,
     "name": "Pañales Estrella baby (TODOS LOS TALLES)",
     "description": "a",
-    "price": 15500,
-    "transfer": 15500,
+    "price": 14200,
+    "transfer": 14200,
     "priceCard": 14950,
     "image": "/pañales/estrella-b.png"
   },
@@ -435,8 +435,8 @@
     "id": 52,
     "name": "Baby Dove shampoo/acondiconador",
     "description": "a",
-    "price": 6200,
-    "transfer": 6200,
+    "price": 7000,
+    "transfer": 7000,
     "priceCard": 7015,
     "image": "/pañales/babydove-Shampoo-acondicionador.jpeg"
   },
@@ -444,8 +444,8 @@
     "id": 53,
     "name": "Baby Dove baño liquido",
     "description": "a",
-    "price": 6300,
-    "transfer": 6300,
+    "price": 7000,
+    "transfer": 7000,
     "priceCard": 7245,
     "image": "/pañales/babydove-baño-liquido.jpeg"
   },
@@ -462,7 +462,7 @@
     "id": 56,
     "name": "Toddler pañales (Todos los talles, consultar stock)",
     "description": "a",
-    "price": 11500,
+    "price": 12000,
     "transfer": 12000,
     "priceCard": 5175,
     "image": "/pañales/toddler.jpg"
