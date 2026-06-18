@@ -4,7 +4,7 @@
     "name": "Pañales Babysec Ultra Soft (M, G, XG, XXG)",
     "description": "a",
     "price": 9400,
-    "transfer": 10400,
+    "transfer": 9400,
     "priceCard": 12305,
     "image": "/pañales/babysec.jpg"
   },
@@ -93,8 +93,8 @@
     "id": 11,
     "name": "Pañales Huggies Natural Care (M, G, XG, XXG, XXXG)",
     "description": "a",
-    "price": 31800,
-    "transfer": 32800,
+    "price": 30500,
+    "transfer": 30500,
     "priceCard": 35075,
     "image": "/pañales/huggies-n-c.png"
   },
@@ -174,8 +174,8 @@
     "id": 21,
     "name": "Pañales Pampers Baby-Dry (M, G, XG, XXG)",
     "description": "a",
-    "price": 31000,
-    "transfer": 31500,
+    "price": 31100,
+    "transfer": 31100,
     "priceCard": 37375,
     "image": "/pañales/pampers-b-d.png"
   },
@@ -192,8 +192,8 @@
     "id": 23,
     "name": "Pañales Pampers Babysan (M, G, XG, XXG, XXXG)",
     "description": "a",
-    "price": 27100,
-    "transfer": 27100,
+    "price": 26000,
+    "transfer": 26000,
     "priceCard": 28750,
     "image": "/pañales/pampers-b-s.png"
   },
@@ -219,8 +219,8 @@
     "id": 26,
     "name": "Pañales Pampers deluxe Protection Talle RN+ x56",
     "description": "a",
-    "price": 25500,
-    "transfer": 26000,
+    "price": 26300,
+    "transfer": 26300,
     "priceCard": 29325,
     "image": "/pañales/pampers-d-p-rn-plus.png"
   },
@@ -228,8 +228,8 @@
     "id": 27,
     "name": "Pañales Pampers deluxe Protection Talle RN x36",
     "description": "a",
-    "price": 21000,
-    "transfer": 21000,
+    "price": 21200,
+    "transfer": 21200,
     "priceCard": 24150,
     "image": "/pañales/pampers-d-p-rn.png"
   },
@@ -246,8 +246,8 @@
     "id": 29,
     "name": "Pañales Pampers Pants Premium care (TODOS LOS TALLES)",
     "description": "a",
-    "price": 37000,
-    "transfer": 37000,
+    "price": 39900,
+    "transfer": 39900,
     "priceCard": 42550,
     "image": "/pañales/pampers-p-c.png"
   },
@@ -318,8 +318,8 @@
     "id": 38,
     "name": "Toallitas Estrella baby x50 (los 3 tipos)",
     "description": "a",
-    "price": 3100,
-    "transfer": 3100,
+    "price": 3800,
+    "transfer": 3800,
     "priceCard": 3565,
     "image": "/pañales/toallitas-e.png"
   },
@@ -332,12 +332,21 @@
     "priceCard": 3970,
     "image": "/pañales/kimbies.png"
   },
+    {
+    "id": 57,
+    "name": "Toallitas Kimbies x120",
+    "description": "a",
+    "price": 5100,
+    "transfer": 5100,
+    "priceCard": 5100,
+    "image": "/pañales/kimbiesx120.png"
+  },
   {
     "id": 41,
     "name": "protectores mamarios Doncella x12",
     "description": "a",
-    "price": 1950,
-    "transfer": 1950,
+    "price": 2200,
+    "transfer": 2200,
     "priceCard": 2242,
     "image": "/pañales/p-m-12.png"
   },
@@ -345,8 +354,8 @@
     "id": 42,
     "name": "protectores mamarios Doncella x24",
     "description": "a",
-    "price": 3200,
-    "transfer": 3200,
+    "price": 3370,
+    "transfer": 3370,
     "priceCard": 3680,
     "image": "/pañales/p-m-24.png"
   },
@@ -372,8 +381,8 @@
     "id": 45,
     "name": "Shampoo Jhonsons Baby 200Ml",
     "description": "consultar stock de los modelos",
-    "price": 5600,
-    "transfer": 5600,
+    "price": 6700,
+    "transfer": 6700,
     "priceCard": 6279,
     "image": "/pañales/s-j-b.png"
   },
@@ -381,8 +390,8 @@
     "id": 46,
     "name": "Shampoo Jhonsons Baby 400Ml",
     "description": "a",
-    "price": 11200,
-    "transfer": 11200,
+    "price": 12300,
+    "transfer": 12300,
     "priceCard": 12880,
     "image": "/pañales/s-j-b-400.png"
   },
