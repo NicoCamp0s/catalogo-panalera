@@ -6,6 +6,7 @@ import { Product } from '@/types/Product';
 import productsJson from '../../data/product.json';
 import ProductCard from '@/components/ProductCard';
 import Carousel from '@/components/Carousel';
+import { FaWhatsapp, FaInstagram } from "react-icons/fa";
 
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -13,6 +14,7 @@ export default function Home() {
   const productsRef = useRef<HTMLDivElement>(null);
   const hasScrolled = useRef(false);
   const products: Product[] = productsJson;
+  const instagramUrl = "https://www.instagram.com/panialeranico?igsh=MTlqdWsyYmlvNnRiOQ==";
 
 useEffect(() => {
   if (!hasScrolled.current) {
@@ -114,41 +116,73 @@ useEffect(() => {
           ))}
         </div>
       )}
-      {/* WhatsApp sección informativa */}
-      <div className="mt-12 text-center max-w-xl mx-auto bg-white p-6 rounded-xl shadow-md border border-gray-200">
-        <h2 className="text-xl font-semibold mb-2">¿No encontrás lo que estás buscando?</h2>
-        <p className="mb-4 text-gray-700">
-          Escribinos por WhatsApp y te ayudamos a encontrar el producto que necesitás.
+      {/* Contacto */}
+      <div className="mt-12 mx-auto max-w-xl rounded-2xl border border-gray-200 bg-white p-6 shadow-md">
+        <h2 className="mb-2 text-center text-2xl font-bold text-emerald-800">
+          ¿Necesitás ayuda?
+        </h2>
+
+        <p className="mb-6 text-center text-gray-600">
+          Si no encontrás el producto que buscás o tenés alguna consulta,
+          escribinos o seguinos en Instagram para ver novedades y ofertas.
         </p>
+
+        <div className="flex flex-col gap-3 sm:flex-row">
+          <a
+            href="https://wa.me/541161574074"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-green-500 py-3 font-semibold text-white transition hover:bg-green-600"
+          >
+            <FaWhatsapp size={22} />
+            Escribir por WhatsApp
+          </a>
+
+          <a
+            href={instagramUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-linear-to-r from-purple-600 via-pink-500 to-orange-400 py-3 font-semibold text-white transition hover:opacity-90"
+          >
+            <FaInstagram size={22} />
+            Seguinos en Instagram
+          </a>
+        </div>
+      </div>
+      <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
+        {/* WhatsApp */}
         <a
           href="https://wa.me/541161574074"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-lg transition"
+          className="flex h-14 w-14 items-center justify-center rounded-full bg-green-500 text-white shadow-lg transition-all duration-200 hover:scale-110 hover:bg-green-600"
+          aria-label="WhatsApp"
+          title="Escribinos por WhatsApp"
         >
-          Contactar por WhatsApp
+          <FaWhatsapp size={30} />
         </a>
+
+        {/* Instagram */}
+        <a
+          href={instagramUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex h-14 w-14 items-center justify-center rounded-full bg-linear-to-br from-purple-600 via-pink-500 to-orange-400 text-white shadow-lg transition-all duration-200 hover:scale-110"
+          aria-label="Instagram"
+          title="Seguinos en Instagram"
+        >
+          <FaInstagram size={28} />
+        </a>
+
+        {/* Volver arriba */}
+        <button
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          className="flex h-14 w-14 items-center justify-center rounded-full bg-gray-700 text-white shadow-lg transition-all duration-200 hover:scale-110 hover:bg-gray-800"
+          aria-label="Volver arriba"
+        >
+          ↑
+        </button>
       </div>
-      {/* Botón flotante de WhatsApp */}
-      <a
-        href="https://wa.me/541161574074"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg z-50 transition transform hover:scale-110"
-        aria-label="WhatsApp"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M12 0C5.373 0 0 5.373 0 12a11.933 11.933 0 001.64 6.02L0 24l6.25-1.64A11.936 11.936 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm5.243 17.243c-.243.684-1.412 1.3-1.957 1.375-.517.07-1.177.1-1.877-.106-.433-.125-1.014-.33-1.767-.686-3.113-1.449-5.152-5.054-5.307-5.297-.154-.243-1.266-1.69-1.266-3.226s.8-2.287 1.086-2.543c.285-.256.611-.32.814-.32.202 0 .405.002.58.01.188.008.435-.07.68.518.243.58.825 1.996.897 2.138.07.14.116.309.023.494-.094.185-.14.3-.273.46-.132.157-.28.35-.4.47-.13.127-.265.264-.114.518.15.256.663 1.093 1.426 1.77 1.014.907 1.87 1.194 2.133 1.33.27.132.426.11.583-.066.156-.175.675-.786.857-1.056.183-.27.367-.22.614-.132.243.088 1.544.728 1.807.86.27.133.45.198.517.308.07.114.07.66-.173 1.344z" />
-        </svg>
-      </a>
-      {/* Botón flotante: Ir arriba */}
-      <button
-        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-        className="fixed bottom-21 right-8 bg-gray-700 hover:bg-gray-800 text-white p-4 rounded-full shadow-lg z-50 transition transform hover:scale-110"
-        aria-label="Volver arriba"
-      >
-        ↑
-      </button>
     </main>
   );
 }
