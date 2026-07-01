@@ -3,8 +3,8 @@
     "id": 1,
     "name": "Pañales Babysec Ultra Soft (M, G, XG, XXG)",
     "description": "a",
-    "price": 9400,
-    "transfer": 9800,
+    "price": 8500,
+    "transfer": 8500,
     "priceCard": 12305,
     "image": "/pañales/babysec.jpg"
   },
@@ -21,8 +21,8 @@
     "id": 3,
     "name": "Pañales Babysec Ultra Soft Talle P x50",
     "description": "a",
-    "price": 9400,
-    "transfer": 9400,
+    "price": 8500,
+    "transfer": 8500,
     "priceCard": 14605,
     "image": "/pañales/babysec-ultra-p.png"
   },
@@ -39,8 +39,8 @@
     "id": 5,
     "name": "Pañales Babysec Premium Soft (M, G, XG, XXG)",
     "description": "a",
-    "price": 12600,
-    "transfer": 13000,
+    "price": 12100,
+    "transfer": 12100,
     "priceCard": 14375,
     "image": "/pañales/babysec-premium.jpg"
   },
@@ -54,11 +54,20 @@
     "image": "/pañales/babysec-premium-hiper.jpg"
   },
   {
+    "id": 201,
+    "name": "Pañales Babysec Premium Soft Talle P x50",
+    "description": "a",
+    "price": 12100,
+    "transfer": 12100,
+    "priceCard": 3565,
+    "image": "/pañales/babysec-premium-p.png"
+  },
+  {
     "id": 7,
     "name": "Pañales Babysec Super Premium Talle P x30",
     "description": "a",
-    "price": 12400,
-    "transfer": 12400,
+    "price": 11600,
+    "transfer": 11600,
     "priceCard": 12707,
     "image": "/pañales/babysec-super-p.png"
   },
@@ -66,17 +75,26 @@
     "id": 8,
     "name": "Pañales Babysec Super Premium Talle RN x20",
     "description": "a",
-    "price": 9600,
-    "transfer": 9600,
+    "price": 9000,
+    "transfer": 9000,
     "priceCard": 12305,
     "image": "/pañales/babysec-super-rn.png"
+  },
+  {
+    "id": 800,
+    "name": "Pañales Babysec Pants Premiums (M, G, XG, XXG)",
+    "description": "a",
+    "price": 14000,
+    "transfer": 14000,
+    "priceCard": 12305,
+    "image": "/pañales/babysec-premium-pants.png"
   },
   {
     "id": 9,
     "name": "Pañales Huggies Classic (M, G, XG, XXG, XXXG)",
     "description": "a",
-    "price": 20000,
-    "transfer": 20000,
+    "price": 19300,
+    "transfer": 19300,
     "priceCard": 23230,
     "image": "/pañales/huggies-classic.png"
   },
@@ -84,8 +102,8 @@
     "id": 10,
     "name": "Pañales Huggies Classic Talle P x30",
     "description": "a",
-    "price": 8700,
-    "transfer": 8700,
+    "price": 8300,
+    "transfer": 8300,
     "priceCard": 9775,
     "image": "/pañales/huggies-c.png"
   },
@@ -93,8 +111,8 @@
     "id": 11,
     "name": "Pañales Huggies Natural Care (M, G, XG, XXG, XXXG)",
     "description": "a",
-    "price": 30500,
-    "transfer": 31000,
+    "price": 28750,
+    "transfer": 28750,
     "priceCard": 35075,
     "image": "/pañales/huggies-n-c.png"
   },
@@ -102,8 +120,8 @@
     "id": 12,
     "name": "Pañales Huggies Natural Care Talle RN x34",
     "description": "a",
-    "price": 18000,
-    "transfer": 18000,
+    "price": 16600,
+    "transfer": 16600,
     "priceCard": 20125,
     "image": "/pañales/huggies-n-rn.png"
   },
@@ -111,8 +129,8 @@
     "id": 13,
     "name": "Pañales Huggies Natural Care Talle P x50",
     "description": "a",
-    "price": 22000,
-    "transfer": 22000,
+    "price": 21200,
+    "transfer": 21200,
     "priceCard": 25300,
     "image": "/pañales/huggies-n-p.png"
   },
@@ -120,8 +138,8 @@
     "id": 14,
     "name": "Pañales Huggies Flexi Comfort (M, G, XG, XXG, XXXG)",
     "description": "a",
-    "price": 27600,
-    "transfer": 28000,
+    "price": 26500,
+    "transfer": 26500,
     "priceCard": 30475,
     "image": "/pañales/huggies-f-c.png"
   },
@@ -129,8 +147,8 @@
     "id": 16,
     "name": "Pañales Huggies Flexi Comfort Talle P x50",
     "description": "a",
-    "price": 20000,
-    "transfer": 20000,
+    "price": 18500,
+    "transfer": 18500,
     "priceCard": 21850,
     "image": "/pañales/huggies-f-p.png"
   },
@@ -138,8 +156,8 @@
     "id": 160,
     "name": "Pañales Huggies Flexi Comfort Talle RN x34",
     "description": "a",
-    "price": 14700,
-    "transfer": 14700,
+    "price": 14100,
+    "transfer": 14100,
     "priceCard": 16675,
     "image": "/pañales/huggies-f-rn.png"
   },
@@ -147,8 +165,8 @@
     "id": 17,
     "name": "Pañales Huggies Protect Plus (M, G, XG, XXG, XXXG)",
     "description": "a",
-    "price": 21000,
-    "transfer": 21500,
+    "price": 19450,
+    "transfer": 19450,
     "priceCard": 23575,
     "image": "/pañales/huggies-p-p.png"
   },
@@ -156,8 +174,8 @@
     "id": 18,
     "name": "Pañales Huggies Protect Plus Talle P x50",
     "description": "a",
-    "price": 14000,
-    "transfer": 14000,
+    "price": 13100,
+    "transfer": 13100,
     "priceCard": 16100,
     "image": "/pañales/huggies-p-p-p.png"
   },
@@ -171,11 +189,20 @@
     "image": "/pañales/huggies-l-s.png"
   },
   {
+    "id": 200,
+    "name": "Pañales Pampers splashers (P, M, G, XG)",
+    "description": "a",
+    "price": 11500,
+    "transfer": 11500,
+    "priceCard": 7435,
+    "image": "/pañales/pampers-splashers.png"
+  },
+  {
     "id": 21,
     "name": "Pañales Pampers Baby-Dry (M, G, XG, XXG)",
     "description": "a",
-    "price": 31100,
-    "transfer": 31100,
+    "price": 28500,
+    "transfer": 28500,
     "priceCard": 37375,
     "image": "/pañales/pampers-b-d.png"
   },
@@ -183,8 +210,8 @@
     "id": 22,
     "name": "Pañales Pampers Baby-Dry Talle P x56",
     "description": "a",
-    "price": 21000,
-    "transfer": 21000,
+    "price": 20200,
+    "transfer": 20200,
     "priceCard": 24150,
     "image": "/pañales/pampers-b-d-p.png"
   },
@@ -192,8 +219,8 @@
     "id": 23,
     "name": "Pañales Pampers Babysan (M, G, XG, XXG, XXXG)",
     "description": "a",
-    "price": 26000,
-    "transfer": 26000,
+    "price": 24100,
+    "transfer": 24100,
     "priceCard": 28750,
     "image": "/pañales/pampers-b-s.png"
   },
@@ -201,8 +228,8 @@
     "id": 24,
     "name": "Pañales Pampers Babysan Talle P x52",
     "description": "a",
-    "price": 16500,
-    "transfer": 16500,
+    "price": 15450,
+    "transfer": 15450,
     "priceCard": 18975,
     "image": "/pañales/pampers-b-s-p.png"
   },
@@ -210,8 +237,8 @@
     "id": 25,
     "name": "Pañales Pampers deluxe Protection (M, G, XG, XXG)",
     "description": "a",
-    "price": 38000,
-    "transfer": 38000,
+    "price": 36400,
+    "transfer": 36400,
     "priceCard": 41975,
     "image": "/pañales/pampers-d-p.png"
   },
@@ -219,8 +246,8 @@
     "id": 26,
     "name": "Pañales Pampers deluxe Protection Talle RN+ x56",
     "description": "a",
-    "price": 26000,
-    "transfer": 26000,
+    "price": 24600,
+    "transfer": 24600,
     "priceCard": 29325,
     "image": "/pañales/pampers-d-p-rn-plus.png"
   },
@@ -228,10 +255,28 @@
     "id": 27,
     "name": "Pañales Pampers deluxe Protection Talle RN x36",
     "description": "a",
-    "price": 18800,
-    "transfer": 18800,
+    "price": 18000,
+    "transfer": 18000,
     "priceCard": 24150,
     "image": "/pañales/pampers-d-p-rn.png"
+  },
+  {
+    "id": 299,
+    "name": "Pañales Pampers deluxe Protection Talle RN x36 (hasta 6kg)",
+    "description": "a",
+    "price": 17650,
+    "transfer": 17650,
+    "priceCard": 24150,
+    "image": "/pañales/pampers-d-p-rn-36.png"
+  },
+  {
+    "id": 300,
+    "name": "Pañales Pampers deluxe Protection Talle P x36",
+    "description": "a",
+    "price": 16860,
+    "transfer": 16860,
+    "priceCard": 24150,
+    "image": "/pañales/pampers-d-p-p.png"
   },
   {
     "id": 28,
@@ -246,8 +291,8 @@
     "id": 29,
     "name": "Pañales Pampers Pants Premium care (TODOS LOS TALLES)",
     "description": "a",
-    "price": 39900,
-    "transfer": 39900,
+    "price": 38300,
+    "transfer": 38300,
     "priceCard": 42550,
     "image": "/pañales/pampers-p-c.png"
   },
@@ -255,8 +300,8 @@
     "id": 30,
     "name": "Pañales Duffy (TODOS LOS TALLES)",
     "description": "a",
-    "price": 8400,
-    "transfer": 8900,
+    "price": 8100,
+    "transfer": 8100,
     "priceCard": 9000,
     "image": "/pañales/duffy.png"
   },
@@ -264,8 +309,8 @@
     "id": 31,
     "name": "Pañales Estrella baby Talle P x30",
     "description": "a",
-    "price": 9600,
-    "transfer": 9600,
+    "price": 9000,
+    "transfer": 9000,
     "priceCard": 10695,
     "image": "/pañales/estrella-p.png"
   },
@@ -273,10 +318,19 @@
     "id": 32,
     "name": "Pañales Estrella baby (TODOS LOS TALLES)",
     "description": "a",
-    "price": 13200,
-    "transfer": 13200,
+    "price": 12600,
+    "transfer": 12600,
     "priceCard": 14950,
     "image": "/pañales/estrella-b.png"
+  },
+  {
+    "id": 340,
+    "name": "Pañales Estrella Premium talle Junior x30",
+    "description": "a",
+    "price": 14800,
+    "transfer": 14800,
+    "priceCard": 8970,
+    "image": "/pañales/estrella-premium-junior.png"
   },
   {
     "id": 33,
@@ -345,8 +399,8 @@
     "id": 41,
     "name": "protectores mamarios Doncella x12",
     "description": "a",
-    "price": 2200,
-    "transfer": 2200,
+    "price": 2100,
+    "transfer": 2100,
     "priceCard": 2242,
     "image": "/pañales/p-m-12.png"
   },
@@ -354,8 +408,8 @@
     "id": 42,
     "name": "protectores mamarios Doncella x24",
     "description": "a",
-    "price": 3370,
-    "transfer": 3370,
+    "price": 3250,
+    "transfer": 3250,
     "priceCard": 3680,
     "image": "/pañales/p-m-24.png"
   },
@@ -363,8 +417,8 @@
     "id": 43,
     "name": "Apósitos post-parto Doncella x10",
     "description": "a",
-    "price": 1650,
-    "transfer": 1650,
+    "price": 1700,
+    "transfer": 1700,
     "priceCard": 1900,
     "image": "/pañales/a-p-d-10.png"
   },
@@ -471,9 +525,117 @@
     "id": 56,
     "name": "Toddler pañales (Todos los talles, consultar stock)",
     "description": "a",
-    "price": 12000,
-    "transfer": 12000,
+    "price": 11200,
+    "transfer": 11200,
     "priceCard": 5175,
     "image": "/pañales/toddler.jpg"
+  },
+  {
+    "id": 58,
+    "name": "Óleo calcáreo estrella baby 950ml",
+    "description": "a",
+    "price": 7800,
+    "transfer": 7800,
+    "priceCard": 3970,
+    "image": "/oleos/oleo-estrella-950.png"
+  },
+  {
+    "id": 59,
+    "name": "Óleo limpiador estrella baby 500ml",
+    "description": "a",
+    "price": 4700,
+    "transfer": 4700,
+    "priceCard": 3565,
+    "image": "/oleos/oleo-estrella-500.png"
+  },
+  {
+    "id": 60,
+    "name": "Óleo limpiador estrella baby 245ml",
+    "description": "a",
+    "price": 3500,
+    "transfer": 3500,
+    "priceCard": 3970,
+    "image": "/oleos/oleo-estrella-245.png"
+  },
+  {
+    "id": 61,
+    "name": "Óleo calcáreo Benaré 970ml",
+    "description": "a",
+    "price": 5400,
+    "transfer": 5400,
+    "priceCard": 3565,
+    "image": "/oleos/oleo-benare-970.png"
+  },
+  {
+    "id": 62,
+    "name": "Algodón estrella super x400",
+    "description": "a",
+    "price": 4600,
+    "transfer": 4600,
+    "priceCard": 3565,
+    "image": "/algodon/algodon-estrella-400.png"
+  },
+  {
+    "id": 63,
+    "name": "Algodón estrella super x200",
+    "description": "a",
+    "price": 2200,
+    "transfer": 2200,
+    "priceCard": 3565,
+    "image": "/algodon/algodon-estrella-200.png"
+  },
+  {
+    "id": 64,
+    "name": "Algodón estrella super x100",
+    "description": "a",
+    "price": 1400,
+    "transfer": 1400,
+    "priceCard": 3565,
+    "image": "/algodon/algodon-estrella-100.png"
+  },
+  {
+    "id": 65,
+    "name": "Algodón estrella baby precortado x100",
+    "description": "a",
+    "price": 1300,
+    "transfer": 1300,
+    "priceCard": 3565,
+    "image": "/algodon/algodon-estrella-precortado-100.png"
+  },
+  {
+    "id": 66,
+    "name": "Algodón Doncella x500",
+    "description": "a",
+    "price": 4100,
+    "transfer": 4100,
+    "priceCard": 3565,
+    "image": "/algodon/algodon-doncella-500.png"
+  },
+  {
+    "id": 67,
+    "name": "Algodón Doncella x300",
+    "description": "a",
+    "price": 3200,
+    "transfer": 3200,
+    "priceCard": 3565,
+    "image": "/algodon/algodon-doncella-300.png"
+  },
+  {
+    "id": 68,
+    "name": "Algodón Doncella x70",
+    "description": "a",
+    "price": 750,
+    "transfer": 750,
+    "priceCard": 3565,
+    "image": "/algodon/algodon-doncella-70.png"
+  },
+  {
+    "id": 69,
+    "name": "Jabones jhonson´s baby x80gr (todas las fragancias)",
+    "description": "a",
+    "price": 1900,
+    "transfer": 1900,
+    "priceCard": 3565,
+    "image": "/jabones/jabon-jhonson-baby-80gr.png"
   }
 ]
