@@ -27,11 +27,22 @@ useEffect(() => {
   }
 }, [currentPage]);
 
+const cleanText = (text: string) => 
+  text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+
+const filteredProducts = products.filter((product) => {
+  const searchTermClean = cleanText(searchTerm);
+  const productNameClean = cleanText(product.name);
+  const productDescClean = cleanText(product.description);
+
+  return productNameClean.includes(searchTermClean) || productDescClean.includes(searchTermClean);
+});
+
   // Filtro por búsqueda
-  const filteredProducts = products.filter((product) =>
-    product.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    product.description.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  // const filteredProducts = products.filter((product) =>
+  //   product.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+  //   product.description.toLowerCase().includes(searchTerm.toLowerCase())
+  // );
 
   // Paginación
   const productsPerPage = 12;
