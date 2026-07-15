@@ -30,13 +30,25 @@ useEffect(() => {
 const cleanText = (text: string) => 
   text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 
-const filteredProducts = products.filter((product) => {
-  const searchTermClean = cleanText(searchTerm);
-  const productNameClean = cleanText(product.name);
-  const productDescClean = cleanText(product.description);
+ // Filtro por búsqueda avanzada inteligente (Actualizado)
+  const filteredProducts = products.filter((product) => {
+    // 1. Limpiamos el término de búsqueda y lo separamos en palabras individuales
+    const cleanedSearch = cleanText(searchTerm);
+    const searchWords = cleanedSearch.split(/\s+/).filter(word => word.length > 0);
 
-  return productNameClean.includes(searchTermClean) || productDescClean.includes(searchTermClean);
-});
+    // Si el buscador está vacío, mostramos todos los productos
+    if (searchWords.length === 0) return true;
+
+    // 2. Limpiamos los textos del producto donde vamos a buscar
+    const productNameClean = cleanText(product.name);
+    const productDescClean = cleanText(product.description);
+    
+    // Texto unificado para realizar la búsqueda en ambos campos a la vez
+    const fullProductText = `${productNameClean} ${productDescClean}`;
+
+    // 3. Evaluamos si CADA una de las palabras ingresadas existe dentro del producto
+    return searchWords.every((word) => fullProductText.includes(word));
+  });
 
   // Filtro por búsqueda
   // const filteredProducts = products.filter((product) =>
