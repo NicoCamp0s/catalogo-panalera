@@ -1,211 +1,261 @@
 'use client';
 
 import Image from 'next/image';
-import { useState, useEffect, useRef } from 'react';
-import { Product } from '@/types/Product';
-import productsJson from '../../data/product.json';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
 import ProductCard from '@/components/ProductCard';
 import Carousel from '@/components/Carousel';
-import { FaWhatsapp, FaInstagram } from "react-icons/fa";
+import productsJson from '../../data/product.json';
+import { Product } from '@/types/Product';
+import { instagramUrl, productsPerPage } from '@/lib/catalog';
 
 export default function Home() {
-  const [searchTerm, setSearchTerm] = useState('');
-  const [currentPage, setCurrentPage] = useState(1);
-  const productsRef = useRef<HTMLDivElement>(null);
-  const hasScrolled = useRef(false);
-  const products: Product[] = productsJson;
-  const instagramUrl = "https://www.instagram.com/panialeranico?igsh=MTlqdWsyYmlvNnRiOQ==";
+const [searchTerm, setSearchTerm] = useState('');
+const [currentPage, setCurrentPage] = useState(1);
+const productsRef = useRef<HTMLDivElement>(null);
+const hasScrolled = useRef(false);
+const products = productsJson as Product[];
 
 useEffect(() => {
   if (!hasScrolled.current) {
     hasScrolled.current = true;
-    return; // No hacer scroll en el primer render
+    return;
   }
 
-  if (productsRef.current) {
-    productsRef.current.scrollIntoView({ behavior: 'smooth' });
-  }
+  productsRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }, [currentPage]);
 
-const cleanText = (text: string) => 
+const cleanText = (text: string) =>
   text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 
- // Filtro por búsqueda avanzada inteligente (Actualizado)
-  const filteredProducts = products.filter((product) => {
-    // 1. Limpiamos el término de búsqueda y lo separamos en palabras individuales
-    const cleanedSearch = cleanText(searchTerm);
-    const searchWords = cleanedSearch.split(/\s+/).filter(word => word.length > 0);
+const filteredProducts = useMemo(() => {
+  const cleanedSearch = cleanText(searchTerm);
+  const searchWords = cleanedSearch.split(/\s+/).filter((word) => word.length > 0);
 
-    // Si el buscador está vacío, mostramos todos los productos
-    if (searchWords.length === 0) return true;
+  if (searchWords.length === 0) {
+    return products;
+  }
 
-    // 2. Limpiamos los textos del producto donde vamos a buscar
+  return products.filter((product) => {
     const productNameClean = cleanText(product.name);
     const productDescClean = cleanText(product.description);
-    
-    // Texto unificado para realizar la búsqueda en ambos campos a la vez
     const fullProductText = `${productNameClean} ${productDescClean}`;
 
-    // 3. Evaluamos si CADA una de las palabras ingresadas existe dentro del producto
     return searchWords.every((word) => fullProductText.includes(word));
   });
+}, [products, searchTerm]);
 
-  // Filtro por búsqueda
-  // const filteredProducts = products.filter((product) =>
-  //   product.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-  //   product.description.toLowerCase().includes(searchTerm.toLowerCase())
-  // );
+const totalPages = Math.max(1, Math.ceil(filteredProducts.length / productsPerPage));
+const indexOfLastProduct = currentPage * productsPerPage;
+const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
+const currentProducts = filteredProducts.slice(indexOfFirstProduct, indexOfLastProduct);
+const hasSearchTerm = searchTerm.trim().length > 0;
+const totalProductsLabel = `${filteredProducts.length} ${filteredProducts.length === 1 ? 'producto' : 'productos'}`;
 
-  // Paginación
-  const productsPerPage = 12;
-  const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
-  const indexOfLastProduct = currentPage * productsPerPage;
-  const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
-  const currentProducts = filteredProducts.slice(indexOfFirstProduct, indexOfLastProduct);
+useEffect(() => {
+  if (currentPage > totalPages) {
+    setCurrentPage(totalPages);
+  }
+}, [currentPage, totalPages]);
 
-  const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setSearchTerm(e.target.value);
-    setCurrentPage(1); // Resetear página al buscar
-  };
+const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
+  setSearchTerm(e.target.value);
+  setCurrentPage(1);
+};
 
-  return (
-    <main className="min-h-screen bg-emerald-50 p-4">
-      {/* Logo + Envío */}
-      <div className="bg-emerald-100 mb-8 rounded-xl overflow-hidden shadow-md">
-        {/* Logo */}
-        <div className="p-4 text-center border-b border-emerald-200 bg-emerald-200">
-          <Image
-            src="/images/panalera_nico.png"
-            alt="Logo Pañalera Nico"
-            width={600}
-            height={300}
-            className="mx-auto"
-            priority
-          />
-        </div>
-        {/* Cartel de envíos */}
-        <div className="bg-yellow-300 text-yellow-900 font-semibold text-center py-3 text-base sm:text-lg animate-pulse">
-          📦 ¡Envíos a partir de $30.000!
-        </div>
+const handleResetSearch = () => {
+  setSearchTerm('');
+  setCurrentPage(1);
+};
+
+return (
+  <main className="min-h-screen bg-emerald-50 p-4">
+    <div className="mb-8 overflow-hidden rounded-xl bg-emerald-100 shadow-md">
+      <div className="border-b border-emerald-200 bg-emerald-200 p-4 text-center">
+        <Image
+          src="/images/panalera_nico.png"
+          alt="Logo Pañalera Nico"
+          width={600}
+          height={300}
+          className="mx-auto"
+          priority
+        />
       </div>
-      {/* Carrusel */}
-      <div className="mx-auto mb-8 px-4" style={{ maxWidth: '1280px' }}>
-        <Carousel />
+      <div className="bg-yellow-300 py-3 text-center text-base font-semibold text-yellow-900 animate-pulse sm:text-lg">
+        📦 ¡Envíos a partir de $30.000!
       </div>
-      {/* Título */}
-      <h1 className="text-4xl sm:text-5xl font-extrabold text-center mb-10 text-emerald-800 drop-shadow-sm tracking-tight">
-        🛍️ Catálogo de Productos
-      </h1>
-      {/* Buscador */}
-      <div className="relative max-w-md mx-auto mb-6">
+    </div>
+
+    <div className="mx-auto mb-8 px-4" style={{ maxWidth: '1280px' }}>
+      <Carousel />
+    </div>
+
+    <h1 className="mb-10 text-center text-4xl font-extrabold tracking-tight text-emerald-800 drop-shadow-sm sm:text-5xl">
+      🛍️ Catálogo de Productos
+    </h1>
+
+    <div className="mx-auto mb-6 max-w-md">
+      <label htmlFor="product-search" className="sr-only">
+        Buscar productos
+      </label>
+      <div className="relative">
         <input
+          id="product-search"
           type="text"
-          placeholder="Buscar productos..."
+          placeholder="Buscar por nombre o descripción"
           value={searchTerm}
           onChange={handleSearch}
-          className="w-full p-3 pl-10 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-emerald-400 focus:outline-none"
+          aria-label="Buscar productos"
+          className="w-full rounded-lg border border-gray-300 p-3 pl-10 shadow-sm outline-none transition focus:ring-2 focus:ring-emerald-400"
         />
-        <div className="absolute top-1/2 left-3 transform -translate-y-1/2 text-gray-400">
+        <div className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-gray-400">
           🔍
         </div>
       </div>
-      {/* Productos */}
-      {currentProducts.length === 0 ? (
-        <p className="text-center text-gray-500">No se encontraron productos.</p>
-      ) : (
-        <div
-        ref={productsRef} 
-        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-          {currentProducts.map((product) => (
-            <ProductCard key={product.id} product={product} />
-          ))}
-        </div>
-      )}
-      {/* Paginación */}
-      {totalPages > 1 && (
-        <div className="flex justify-center gap-2 mt-8 flex-wrap">
-          {Array.from({ length: totalPages }, (_, i) => (
-            <button
-              key={i}
-              onClick={() => setCurrentPage(i + 1)}
-              className={`px-4 py-2 rounded transition font-medium ${
-                currentPage === i + 1
-                  ? 'bg-emerald-600 text-white'
-                  : 'bg-gray-200 hover:bg-gray-300'
-              }`}
-            >
-              {i + 1}
-            </button>
-          ))}
-        </div>
-      )}
-      {/* Contacto */}
-      <div className="mt-12 mx-auto max-w-xl rounded-2xl border border-gray-200 bg-white p-6 shadow-md">
-        <h2 className="mb-2 text-center text-2xl font-bold text-emerald-800">
-          ¿Necesitás ayuda?
-        </h2>
+    </div>
 
-        <p className="mb-6 text-center text-gray-600">
-          Si no encontrás el producto que buscás o tenés alguna consulta,
-          escribinos o seguinos en Instagram para ver novedades y ofertas.
+    <div className="mx-auto mb-6 flex max-w-6xl flex-wrap items-center justify-between gap-3 px-1 text-sm text-gray-600">
+      <p>
+        {hasSearchTerm
+          ? `Mostrando ${currentProducts.length} de ${totalProductsLabel}`
+          : `Mostrando ${totalProductsLabel}`}
+      </p>
+      {hasSearchTerm && (
+        <button
+          type="button"
+          onClick={handleResetSearch}
+          className="rounded-full border border-emerald-500 px-3 py-1 font-medium text-emerald-700 transition hover:bg-emerald-50"
+        >
+          Ver todos los productos
+        </button>
+      )}
+    </div>
+
+    {currentProducts.length === 0 ? (
+      <div className="mx-auto max-w-2xl rounded-2xl border border-dashed border-gray-300 bg-white p-8 text-center shadow-sm">
+        <p className="text-lg font-semibold text-gray-700">No se encontraron productos.</p>
+        <p className="mt-2 text-gray-500">
+          Probá con otro término o volvé a ver todos los productos.
         </p>
-
-        <div className="flex flex-col gap-3 sm:flex-row">
-          <a
-            href="https://wa.me/541161574074"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-green-500 py-3 font-semibold text-white transition hover:bg-green-600"
-          >
-            <FaWhatsapp size={22} />
-            Escribir por WhatsApp
-          </a>
-
-          <a
-            href={instagramUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-linear-to-r from-purple-600 via-pink-500 to-orange-400 py-3 font-semibold text-white transition hover:opacity-90"
-          >
-            <FaInstagram size={22} />
-            Seguinos en Instagram
-          </a>
-        </div>
+        <button
+          type="button"
+          onClick={handleResetSearch}
+          className="mt-4 rounded-full bg-emerald-600 px-4 py-2 font-semibold text-white transition hover:bg-emerald-700"
+        >
+          Mostrar todos los productos
+        </button>
       </div>
-      <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
-        {/* WhatsApp */}
+    ) : (
+      <div
+        ref={productsRef}
+        className="mx-auto grid max-w-6xl grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3"
+      >
+        {currentProducts.map((product) => (
+          <ProductCard key={product.id} product={product} />
+        ))}
+      </div>
+    )}
+
+    {totalPages > 1 && (
+      <div className="mt-8 flex flex-wrap justify-center gap-2">
+        <button
+          type="button"
+          onClick={() => setCurrentPage((page) => Math.max(page - 1, 1))}
+          disabled={currentPage === 1}
+          className="rounded-full border border-gray-300 bg-white px-4 py-2 font-medium text-gray-700 transition hover:bg-gray-100 disabled:cursor-not-allowed disabled:opacity-50"
+        >
+          Anterior
+        </button>
+        {Array.from({ length: totalPages }, (_, i) => (
+          <button
+            key={i}
+            type="button"
+            onClick={() => setCurrentPage(i + 1)}
+            className={`rounded-full px-4 py-2 font-medium transition ${
+              currentPage === i + 1
+                ? 'bg-emerald-600 text-white'
+                : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+            }`}
+          >
+            {i + 1}
+          </button>
+        ))}
+        <button
+          type="button"
+          onClick={() => setCurrentPage((page) => Math.min(page + 1, totalPages))}
+          disabled={currentPage === totalPages}
+          className="rounded-full border border-gray-300 bg-white px-4 py-2 font-medium text-gray-700 transition hover:bg-gray-100 disabled:cursor-not-allowed disabled:opacity-50"
+        >
+          Siguiente
+        </button>
+      </div>
+    )}
+
+    <div className="mx-auto mt-12 max-w-xl rounded-2xl border border-gray-200 bg-white p-6 shadow-md">
+      <h2 className="mb-2 text-center text-2xl font-bold text-emerald-800">
+        ¿Necesitás ayuda?
+      </h2>
+
+      <p className="mb-6 text-center text-gray-600">
+        Si no encontrás el producto que buscás o tenés alguna consulta,
+        escribinos o seguinos en Instagram para ver novedades y ofertas.
+      </p>
+
+      <div className="flex flex-col gap-3 sm:flex-row">
         <a
           href="https://wa.me/541161574074"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex h-14 w-14 items-center justify-center rounded-full bg-green-500 text-white shadow-lg transition-all duration-200 hover:scale-110 hover:bg-green-600"
-          aria-label="WhatsApp"
-          title="Escribinos por WhatsApp"
+          className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-green-500 py-3 font-semibold text-white transition hover:bg-green-600"
         >
-          <FaWhatsapp size={30} />
+          <FaWhatsapp size={22} />
+          Escribir por WhatsApp
         </a>
 
-        {/* Instagram */}
         <a
           href={instagramUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex h-14 w-14 items-center justify-center rounded-full bg-linear-to-br from-purple-600 via-pink-500 to-orange-400 text-white shadow-lg transition-all duration-200 hover:scale-110"
-          aria-label="Instagram"
-          title="Seguinos en Instagram"
+          className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 py-3 font-semibold text-white transition hover:opacity-90"
         >
-          <FaInstagram size={28} />
+          <FaInstagram size={22} />
+          Seguinos en Instagram
         </a>
-
-        {/* Volver arriba */}
-        <button
-          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          className="flex h-14 w-14 items-center justify-center rounded-full bg-gray-700 text-white shadow-lg transition-all duration-200 hover:scale-110 hover:bg-gray-800"
-          aria-label="Volver arriba"
-        >
-          ↑
-        </button>
       </div>
-    </main>
-  );
+    </div>
+
+    <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
+      <a
+        href="https://wa.me/541161574074"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex h-14 w-14 items-center justify-center rounded-full bg-green-500 text-white shadow-lg transition-all duration-200 hover:scale-110 hover:bg-green-600"
+        aria-label="WhatsApp"
+        title="Escribinos por WhatsApp"
+      >
+        <FaWhatsapp size={30} />
+      </a>
+
+      <a
+        href={instagramUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-purple-600 via-pink-500 to-orange-400 text-white shadow-lg transition-all duration-200 hover:scale-110"
+        aria-label="Instagram"
+        title="Seguinos en Instagram"
+      >
+        <FaInstagram size={28} />
+      </a>
+
+      <button
+        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+        className="flex h-14 w-14 items-center justify-center rounded-full bg-gray-700 text-white shadow-lg transition-all duration-200 hover:scale-110 hover:bg-gray-800"
+        aria-label="Volver arriba"
+        type="button"
+      >
+        ↑
+      </button>
+    </div>
+  </main>
+);
 }
