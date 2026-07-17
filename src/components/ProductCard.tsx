@@ -37,12 +37,12 @@ export default function ProductCard({ product }: { product: Product }) {
           </p>
         </div>
 
-        {cardPrice && (
+        {/* {cardPrice && (
           <div className="rounded-lg bg-pink-50 py-2 text-center">
             <p className="text-sm text-gray-500">Precio con tarjeta</p>
             <p className="text-2xl font-bold text-pink-600">{cardPrice}</p>
           </div>
-        )}
+        )} */}
       </div>
 
       <div className="mt-5 flex gap-3">
