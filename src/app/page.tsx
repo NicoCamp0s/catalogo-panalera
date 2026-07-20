@@ -82,7 +82,7 @@ return (
         />
       </div>
       <div className="bg-yellow-300 py-3 text-center text-base font-semibold text-yellow-900 animate-pulse sm:text-lg">
-        📦 ¡Envíos a partir de $30.000!
+        📦 ¡Envíos a partir de $15.000!
       </div>
     </div>
 
