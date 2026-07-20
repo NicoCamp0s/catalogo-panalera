@@ -390,8 +390,8 @@
     "id": 57,
     "name": "Toallitas Kimbies x120",
     "description": "a",
-    "price": 5100,
-    "transfer": 5100,
+    "price": 0,
+    "transfer": 0,
     "priceCard": 5100,
     "image": "/pañales/kimbiesx120.png"
   },
