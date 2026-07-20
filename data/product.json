@@ -637,5 +637,14 @@
     "transfer": 1900,
     "priceCard": 3565,
     "image": "/jabones/jabon-jhonson-baby-80gr.png"
+  },
+    {
+    "id": 70,
+    "name": "toallitas babysec x120",
+    "description": "a",
+    "price": 4000,
+    "transfer": 4000,
+    "priceCard": 3565,
+    "image": "/pañales/toalitas-babysec-120.png"
   }
 ]
