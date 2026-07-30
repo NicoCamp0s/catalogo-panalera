@@ -93,8 +93,8 @@
     "id": 9,
     "name": "Pañales Huggies Classic (M, G, XG, XXG, XXXG)",
     "description": "a",
-    "price": 19500,
-    "transfer": 20500,
+    "price": 22000,
+    "transfer": 23000,
     "priceCard": 23230,
     "image": "/pañales/huggies-classic.png"
   },
@@ -210,8 +210,8 @@
     "id": 22,
     "name": "Pañales Pampers Baby-Dry Talle P x56",
     "description": "a",
-    "price": 20200,
-    "transfer": 20200,
+    "price": 22000,
+    "transfer": 22000,
     "priceCard": 24150,
     "image": "/pañales/pampers-b-d-p.png"
   },
@@ -525,8 +525,8 @@
     "id": 56,
     "name": "Toddler pañales (Todos los talles, consultar stock)",
     "description": "a",
-    "price": 12000,
-    "transfer": 12000,
+    "price": 12500,
+    "transfer": 12500,
     "priceCard": 5175,
     "image": "/pañales/toddler.jpg"
   },
