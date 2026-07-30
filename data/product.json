@@ -188,6 +188,15 @@
     "priceCard": 14375,
     "image": "/pañales/huggies-l-s.png"
   },
+    {
+    "id": 2000,
+    "name": "pampers confort sec XXXG x44",
+    "description": "a",
+    "price": 26000,
+    "transfer": 26000,
+    "priceCard": 3565,
+    "image": "/pañales/pampers-confort-sec.png"
+  }
   {
     "id": 200,
     "name": "Pañales Pampers splashers (P, M, G, XG)",
@@ -646,5 +655,14 @@
     "transfer": 4000,
     "priceCard": 3565,
     "image": "/pañales/toalitas-babysec-120.png"
+  },
+    {
+    "id": 71,
+    "name": "Bañera con termómetro y sillón",
+    "description": "a",
+    "price": 40000,
+    "transfer": 40000,
+    "priceCard": 3565,
+    "image": "/pañales/bañera-termometro.png"
   }
 ]
