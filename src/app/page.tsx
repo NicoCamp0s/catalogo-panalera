@@ -11,8 +11,70 @@ import { instagramUrl, productsPerPage } from '@/lib/catalog';
 
 const MAX_VISIBLE_PAGES = 10;
 
+type CategoryId = 'todos' | 'panales' | 'perfumeria' | 'carritos' | 'otros';
+
+const CATEGORIES: { id: CategoryId; label: string; emoji: string }[] = [
+  { id: 'todos', label: 'Todos', emoji: '🛍️' },
+  { id: 'panales', label: 'Pañales', emoji: '👶' },
+  { id: 'perfumeria', label: 'Perfumería', emoji: '🧴' },
+  { id: 'carritos', label: 'Carritos', emoji: '🚼' },
+  { id: 'otros', label: 'Otros', emoji: '🧸' },
+];
+
+// Palabras clave (sin tildes, en minúscula) para clasificar cada producto.
+// Se evalúan en orden: la primera categoría que matchea gana.
+const CATEGORY_KEYWORDS: { id: CategoryId; keywords: string[] }[] = [
+  {
+    id: 'carritos',
+    keywords: [
+      'coche',
+      'cochecito',
+      'triciclo',
+      'camicleta',
+      'patacleta',
+      'monopatin',
+      'cuatriciclo',
+      'moto a bateria',
+      'auto a bateria',
+      'andador',
+      'andarin',
+      'butaca',
+      'corralito',
+      'corral cuna',
+      'silla de comer',
+      'silla bouncer',
+      'cuna corralito',
+      'huevito',
+      'travel system',
+      'rodado',
+      'jumper',
+    ],
+  },
+  {
+    id: 'panales',
+    keywords: ['pañal', 'panal', 'pampers'],
+  },
+  {
+    id: 'perfumeria',
+    keywords: [
+      'toallita',
+      'jabon',
+      'shampoo',
+      'acondicionador',
+      'oleo',
+      'algodon',
+      'mamario',
+      'aposito',
+      'bano liquido',
+      'baby dove',
+      'perfum',
+    ],
+  },
+];
+
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState<CategoryId>('todos');
   const [currentPage, setCurrentPage] = useState(1);
   const productsRef = useRef<HTMLDivElement>(null);
   const hasScrolled = useRef(false);
@@ -30,28 +92,59 @@ export default function Home() {
   const cleanText = (text: string) =>
     text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 
+  const getCategory = (product: Product): CategoryId => {
+    const haystack = cleanText(`${product.name} ${product.description}`);
+    const match = CATEGORY_KEYWORDS.find(({ keywords }) =>
+      keywords.some((keyword) => haystack.includes(keyword))
+    );
+    return match ? match.id : 'otros';
+  };
+
+  const productsWithCategory = useMemo(
+    () => products.map((product) => ({ product, category: getCategory(product) })),
+    [products]
+  );
+
+  const categoryCounts = useMemo(() => {
+    const counts: Record<CategoryId, number> = {
+      todos: productsWithCategory.length,
+      panales: 0,
+      perfumeria: 0,
+      carritos: 0,
+      otros: 0,
+    };
+
+    productsWithCategory.forEach(({ category }) => {
+      counts[category] += 1;
+    });
+
+    return counts;
+  }, [productsWithCategory]);
+
   const filteredProducts = useMemo(() => {
     const cleanedSearch = cleanText(searchTerm);
     const searchWords = cleanedSearch.split(/\s+/).filter((word) => word.length > 0);
 
-    if (searchWords.length === 0) {
-      return products;
-    }
+    return productsWithCategory
+      .filter(({ category }) => selectedCategory === 'todos' || category === selectedCategory)
+      .filter(({ product }) => {
+        if (searchWords.length === 0) return true;
 
-    return products.filter((product) => {
-      const productNameClean = cleanText(product.name);
-      const productDescClean = cleanText(product.description);
-      const fullProductText = `${productNameClean} ${productDescClean}`;
+        const productNameClean = cleanText(product.name);
+        const productDescClean = cleanText(product.description);
+        const fullProductText = `${productNameClean} ${productDescClean}`;
 
-      return searchWords.every((word) => fullProductText.includes(word));
-    });
-  }, [products, searchTerm]);
+        return searchWords.every((word) => fullProductText.includes(word));
+      })
+      .map(({ product }) => product);
+  }, [productsWithCategory, searchTerm, selectedCategory]);
 
   const totalPages = Math.max(1, Math.ceil(filteredProducts.length / productsPerPage));
   const indexOfLastProduct = currentPage * productsPerPage;
   const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
   const currentProducts = filteredProducts.slice(indexOfFirstProduct, indexOfLastProduct);
   const hasSearchTerm = searchTerm.trim().length > 0;
+  const hasActiveFilters = hasSearchTerm || selectedCategory !== 'todos';
   const totalProductsLabel = `${filteredProducts.length} ${filteredProducts.length === 1 ? 'producto' : 'productos'}`;
 
   // Ventana de números de página a mostrar (máximo MAX_VISIBLE_PAGES botones)
@@ -85,8 +178,14 @@ export default function Home() {
     setCurrentPage(1);
   };
 
-  const handleResetSearch = () => {
+  const handleSelectCategory = (categoryId: CategoryId) => {
+    setSelectedCategory(categoryId);
+    setCurrentPage(1);
+  };
+
+  const handleResetFilters = () => {
     setSearchTerm('');
+    setSelectedCategory('todos');
     setCurrentPage(1);
   };
 
@@ -117,12 +216,38 @@ export default function Home() {
           🛍️ Catálogo de Productos
         </h1>
         <p className="mt-2 text-emerald-700/80">
-          Todo para tu bebé, en un solo lugar. Pañales, juguetes, movilidad y más.
+          Todo para tu bebé, en un solo lugar. Pañales, perfumería, carritos y más.
         </p>
       </div>
 
       <div className="mx-auto mb-10 px-4" style={{ maxWidth: '1280px' }}>
         <Carousel />
+      </div>
+
+      {/* Filtro por categorías */}
+      <div className="mx-auto mb-6 flex max-w-4xl flex-wrap justify-center gap-2 px-1">
+        {CATEGORIES.map((category) => {
+          const isActive = selectedCategory === category.id;
+          return (
+            <button
+              key={category.id}
+              type="button"
+              onClick={() => handleSelectCategory(category.id)}
+              aria-pressed={isActive}
+              className={`flex items-center gap-1.5 rounded-full border px-4 py-2 text-sm font-semibold transition ${
+                isActive
+                  ? 'border-emerald-600 bg-emerald-600 text-white shadow-sm'
+                  : 'border-emerald-200 bg-white text-emerald-700 hover:border-emerald-400 hover:bg-emerald-50'
+              }`}
+            >
+              <span aria-hidden="true">{category.emoji}</span>
+              {category.label}
+              <span className={isActive ? 'text-emerald-100' : 'text-emerald-400'}>
+                ({categoryCounts[category.id]})
+              </span>
+            </button>
+          );
+        })}
       </div>
 
       <div className="mx-auto mb-6 max-w-md">
@@ -147,14 +272,14 @@ export default function Home() {
 
       <div className="mx-auto mb-6 flex max-w-6xl flex-wrap items-center justify-between gap-3 px-1 text-sm text-gray-600">
         <p>
-          {hasSearchTerm
+          {hasActiveFilters
             ? `Mostrando ${currentProducts.length} de ${totalProductsLabel}`
             : `Mostrando ${totalProductsLabel}`}
         </p>
-        {hasSearchTerm && (
+        {hasActiveFilters && (
           <button
             type="button"
-            onClick={handleResetSearch}
+            onClick={handleResetFilters}
             className="rounded-full border border-emerald-500 px-3 py-1 font-medium text-emerald-700 transition hover:bg-emerald-50"
           >
             Ver todos los productos
@@ -166,11 +291,11 @@ export default function Home() {
         <div className="mx-auto max-w-2xl rounded-2xl border border-dashed border-gray-300 bg-white p-8 text-center shadow-sm">
           <p className="text-lg font-semibold text-gray-700">No se encontraron productos.</p>
           <p className="mt-2 text-gray-500">
-            Probá con otro término o volvé a ver todos los productos.
+            Probá con otro término, otra categoría, o volvé a ver todos los productos.
           </p>
           <button
             type="button"
-            onClick={handleResetSearch}
+            onClick={handleResetFilters}
             className="mt-4 rounded-full bg-emerald-600 px-4 py-2 font-semibold text-white transition hover:bg-emerald-700"
           >
             Mostrar todos los productos
