@@ -194,7 +194,7 @@ export default function Home() {
       {/* Header: logo + banner de envíos */}
       <div className="mb-6 overflow-hidden rounded-xl bg-white shadow-md">
         <div className="bg-emerald-700 p-5 text-center">
-          <div className="relative mx-auto aspect-[2/1] w-full max-w-[220px] sm:max-w-[260px]">
+          <div className="relative mx-auto aspect-2/1 w-full max-w-[220px] sm:max-w-[260px]">
             <Image
               src="/images/panalera_nico.png"
               alt="Logo Pañalera Nico"

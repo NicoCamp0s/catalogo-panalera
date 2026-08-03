@@ -480,8 +480,8 @@
     "id": 54,
     "name": "Bañera Bebe Plegable Mega Baby",
     "description": "a",
-    "price": 29200,
-    "transfer": 29200,
+    "price": 0,
+    "transfer": 0,
     "priceCard": 33580,
     "image": "/pañales/bañera-plegable.png"
   },
@@ -489,8 +489,8 @@
     "id": 55,
     "name": "Bañera Bebe",
     "description": "a",
-    "price": 16500,
-    "transfer": 16500,
+    "price": 0,
+    "transfer": 0,
     "priceCard": 19320,
     "image": "/pañales/bañera.png"
   },
@@ -660,8 +660,8 @@
     "id": 74,
     "name": "Bañera con termómetro y sillón",
     "description": "a",
-    "price": 40000,
-    "transfer": 40000,
+    "price": 45000,
+    "transfer": 45000,
     "priceCard": 3565,
     "image": "/pañales/bañera-termometro.png"
   },
