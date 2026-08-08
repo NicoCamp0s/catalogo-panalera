@@ -9,7 +9,7 @@ import productsJson from '../../data/product.json';
 import { Product } from '@/types/Product';
 import { instagramUrl, productsPerPage } from '@/lib/catalog';
 
-const MAX_VISIBLE_PAGES = 10;
+const MAX_VISIBLE_PAGES = 5;
 
 type CategoryId = 'todos' | 'panales' | 'perfumeria' | 'carritos' | 'otros';
 

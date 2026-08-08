@@ -39,7 +39,7 @@
     "id": 5,
     "name": "Pañales Babysec Premium Soft (M, G, XG, XXG)",
     "description": "a",
-    "price": 12000,
+    "price": 12500,
     "transfer": 13000,
     "priceCard": 14375,
     "image": "/pañales/babysec-premium.jpg"
@@ -579,8 +579,8 @@
     "id": 65,
     "name": "Algodón estrella super x400",
     "description": "a",
-    "price": 4600,
-    "transfer": 4600,
+    "price": 4800,
+    "transfer": 4800,
     "priceCard": 3565,
     "image": "/algodon/algodon-estrella-400.png"
   },
@@ -615,8 +615,8 @@
     "id": 69,
     "name": "Algodón Doncella x500",
     "description": "a",
-    "price": 4800,
-    "transfer": 4800,
+    "price": 4900,
+    "transfer": 4900,
     "priceCard": 3565,
     "image": "/algodon/algodon-doncella-500.png"
   },
