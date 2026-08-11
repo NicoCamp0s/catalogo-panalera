@@ -1,19 +1,21 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Nunito, Outfit } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const outfit = Outfit({
+  variable: "--font-outfit",
   subsets: ["latin"],
+  weight: ["600", "700", "800"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const nunito = Nunito({
+  variable: "--font-nunito",
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
 });
 
 export const viewport = {
-  themeColor: "#ffffff",
+  themeColor: "#0d9488",
 };
 
 export const metadata: Metadata = {
@@ -28,8 +30,19 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL("https://catalogo-panaleranico.vercel.app"),
   description: "Pañales, accesorios y más para bebés. Compra fácil y rápido.",
-  keywords: ["pañalera", "pañales", "bebés", "productos infantiles", "babysec", "pampers", "recien nacido", "accesorios"],
-  authors: [{ name: "Nicolás Campos", url: "https://catalogo-panaleranico.vercel.app/" }],
+  keywords: [
+    "pañalera",
+    "pañales",
+    "bebés",
+    "productos infantiles",
+    "babysec",
+    "pampers",
+    "recien nacido",
+    "accesorios",
+  ],
+  authors: [
+    { name: "Nicolás Campos", url: "https://catalogo-panaleranico.vercel.app/" },
+  ],
   creator: "Nicolás Campos",
   openGraph: {
     title: "Pañalera Nico",
@@ -60,9 +73,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${outfit.variable} ${nunito.variable} antialiased`}>
         {children}
       </body>
     </html>

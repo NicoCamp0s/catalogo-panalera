@@ -6,7 +6,8 @@
     "price": 9500,
     "transfer": 10000,
     "priceCard": 12305,
-    "image": "/pañales/babysec.jpg"
+    "image": "/pañales/babysec.jpg",
+    "category": "panales"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "price": 3200,
     "transfer": 3200,
     "priceCard": 3680,
-    "image": "/pañales/babysec-regular.png"
+    "image": "/pañales/babysec-regular.png",
+    "category": "panales"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "price": 9500,
     "transfer": 10000,
     "priceCard": 14605,
-    "image": "/pañales/babysec-ultra-p.png"
+    "image": "/pañales/babysec-ultra-p.png",
+    "category": "panales"
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "price": 0,
     "transfer": 0,
     "priceCard": 18745,
-    "image": "/pañales/babysec-ultra.jpg"
+    "image": "/pañales/babysec-ultra.jpg",
+    "category": "panales"
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "price": 12500,
     "transfer": 13000,
     "priceCard": 14375,
-    "image": "/pañales/babysec-premium.jpg"
+    "image": "/pañales/babysec-premium.jpg",
+    "category": "panales"
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@
     "price": 0,
     "transfer": 0,
     "priceCard": 21850,
-    "image": "/pañales/babysec-premium-hiper.jpg"
+    "image": "/pañales/babysec-premium-hiper.jpg",
+    "category": "panales"
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@
     "price": 12000,
     "transfer": 13000,
     "priceCard": 3565,
-    "image": "/pañales/babysec-premium-p.png"
+    "image": "/pañales/babysec-premium-p.png",
+    "category": "panales"
   },
   {
     "id": 8,
@@ -69,7 +76,8 @@
     "price": 13500,
     "transfer": 13500,
     "priceCard": 12707,
-    "image": "/pañales/babysec-super-p.png"
+    "image": "/pañales/babysec-super-p.png",
+    "category": "panales"
   },
   {
     "id": 9,
@@ -78,7 +86,8 @@
     "price": 10500,
     "transfer": 11500,
     "priceCard": 12305,
-    "image": "/pañales/babysec-super-rn.png"
+    "image": "/pañales/babysec-super-rn.png",
+    "category": "panales"
   },
   {
     "id": 10,
@@ -87,7 +96,8 @@
     "price": 16000,
     "transfer": 16000,
     "priceCard": 12305,
-    "image": "/pañales/babysec-premium-pants.png"
+    "image": "/pañales/babysec-premium-pants.png",
+    "category": "panales"
   },
   {
     "id": 11,
@@ -96,7 +106,8 @@
     "price": 22000,
     "transfer": 23000,
     "priceCard": 23230,
-    "image": "/pañales/huggies-classic.png"
+    "image": "/pañales/huggies-classic.png",
+    "category": "panales"
   },
   {
     "id": 12,
@@ -105,7 +116,8 @@
     "price": 0,
     "transfer": 0,
     "priceCard": 9775,
-    "image": "/pañales/huggies-c.png"
+    "image": "/pañales/huggies-c.png",
+    "category": "panales"
   },
   {
     "id": 13,
@@ -114,7 +126,8 @@
     "price": 31800,
     "transfer": 32300,
     "priceCard": 35075,
-    "image": "/pañales/huggies-n-c.png"
+    "image": "/pañales/huggies-n-c.png",
+    "category": "panales"
   },
   {
     "id": 14,
@@ -123,7 +136,8 @@
     "price": 18000,
     "transfer": 18000,
     "priceCard": 20125,
-    "image": "/pañales/huggies-n-rn.png"
+    "image": "/pañales/huggies-n-rn.png",
+    "category": "panales"
   },
   {
     "id": 15,
@@ -132,7 +146,8 @@
     "price": 0,
     "transfer": 0,
     "priceCard": 25300,
-    "image": "/pañales/huggies-n-p.png"
+    "image": "/pañales/huggies-n-p.png",
+    "category": "panales"
   },
   {
     "id": 16,
@@ -141,7 +156,8 @@
     "price": 27500,
     "transfer": 28500,
     "priceCard": 30475,
-    "image": "/pañales/huggies-f-c.png"
+    "image": "/pañales/huggies-f-c.png",
+    "category": "panales"
   },
   {
     "id": 17,
@@ -150,7 +166,8 @@
     "price": 19400,
     "transfer": 19400,
     "priceCard": 21850,
-    "image": "/pañales/huggies-f-p.png"
+    "image": "/pañales/huggies-f-p.png",
+    "category": "panales"
   },
   {
     "id": 18,
@@ -159,7 +176,8 @@
     "price": 15500,
     "transfer": 15500,
     "priceCard": 16675,
-    "image": "/pañales/huggies-f-rn.png"
+    "image": "/pañales/huggies-f-rn.png",
+    "category": "panales"
   },
   {
     "id": 19,
@@ -168,7 +186,8 @@
     "price": 22000,
     "transfer": 23000,
     "priceCard": 23575,
-    "image": "/pañales/huggies-p-p.png"
+    "image": "/pañales/huggies-p-p.png",
+    "category": "panales"
   },
   {
     "id": 20,
@@ -177,7 +196,8 @@
     "price": 0,
     "transfer": 0,
     "priceCard": 16100,
-    "image": "/pañales/huggies-p-p-p.png"
+    "image": "/pañales/huggies-p-p-p.png",
+    "category": "panales"
   },
   {
     "id": 21,
@@ -186,7 +206,8 @@
     "price": 12000,
     "transfer": 12000,
     "priceCard": 14375,
-    "image": "/pañales/huggies-l-s.png"
+    "image": "/pañales/huggies-l-s.png",
+    "category": "panales"
   },
   {
     "id": 22,
@@ -195,7 +216,8 @@
     "price": 26000,
     "transfer": 26000,
     "priceCard": 3565,
-    "image": "/pañales/pampers-confort-sec.png"
+    "image": "/pañales/pampers-confort-sec.png",
+    "category": "panales"
   },
   {
     "id": 23,
@@ -204,7 +226,8 @@
     "price": 12500,
     "transfer": 12500,
     "priceCard": 7435,
-    "image": "/pañales/pampers-splashers.png"
+    "image": "/pañales/pampers-splashers.png",
+    "category": "panales"
   },
   {
     "id": 24,
@@ -213,7 +236,8 @@
     "price": 29000,
     "transfer": 30000,
     "priceCard": 37375,
-    "image": "/pañales/pampers-b-d.png"
+    "image": "/pañales/pampers-b-d.png",
+    "category": "panales"
   },
   {
     "id": 25,
@@ -222,7 +246,8 @@
     "price": 22000,
     "transfer": 22000,
     "priceCard": 24150,
-    "image": "/pañales/pampers-b-d-p.png"
+    "image": "/pañales/pampers-b-d-p.png",
+    "category": "panales"
   },
   {
     "id": 26,
@@ -231,7 +256,8 @@
     "price": 24000,
     "transfer": 24500,
     "priceCard": 28750,
-    "image": "/pañales/pampers-b-s.png"
+    "image": "/pañales/pampers-b-s.png",
+    "category": "panales"
   },
   {
     "id": 27,
@@ -240,7 +266,8 @@
     "price": 17000,
     "transfer": 17000,
     "priceCard": 18975,
-    "image": "/pañales/pampers-b-s-p.png"
+    "image": "/pañales/pampers-b-s-p.png",
+    "category": "panales"
   },
   {
     "id": 28,
@@ -249,7 +276,8 @@
     "price": 38800,
     "transfer": 39000,
     "priceCard": 41975,
-    "image": "/pañales/pampers-d-p.png"
+    "image": "/pañales/pampers-d-p.png",
+    "category": "panales"
   },
   {
     "id": 29,
@@ -258,7 +286,8 @@
     "price": 27000,
     "transfer": 27000,
     "priceCard": 29325,
-    "image": "/pañales/pampers-d-p-rn-plus.png"
+    "image": "/pañales/pampers-d-p-rn-plus.png",
+    "category": "panales"
   },
   {
     "id": 30,
@@ -267,7 +296,8 @@
     "price": 19000,
     "transfer": 19000,
     "priceCard": 24150,
-    "image": "/pañales/pampers-d-p-rn.png"
+    "image": "/pañales/pampers-d-p-rn.png",
+    "category": "panales"
   },
   {
     "id": 31,
@@ -276,7 +306,8 @@
     "price": 19000,
     "transfer": 19000,
     "priceCard": 24150,
-    "image": "/pañales/pampers-d-p-rn-36.png"
+    "image": "/pañales/pampers-d-p-rn-36.png",
+    "category": "panales"
   },
   {
     "id": 32,
@@ -285,7 +316,8 @@
     "price": 18000,
     "transfer": 18000,
     "priceCard": 24150,
-    "image": "/pañales/pampers-d-p-p.png"
+    "image": "/pañales/pampers-d-p-p.png",
+    "category": "panales"
   },
   {
     "id": 33,
@@ -294,7 +326,8 @@
     "price": 20000,
     "transfer": 20000,
     "priceCard": 22425,
-    "image": "/pañales/pampers-p.png"
+    "image": "/pañales/pampers-p.png",
+    "category": "panales"
   },
   {
     "id": 34,
@@ -303,7 +336,8 @@
     "price": 38000,
     "transfer": 38000,
     "priceCard": 42550,
-    "image": "/pañales/pampers-p-c.png"
+    "image": "/pañales/pampers-p-c.png",
+    "category": "panales"
   },
   {
     "id": 35,
@@ -312,7 +346,8 @@
     "price": 8600,
     "transfer": 9000,
     "priceCard": 9000,
-    "image": "/pañales/duffy.png"
+    "image": "/pañales/duffy.png",
+    "category": "panales"
   },
   {
     "id": 36,
@@ -321,7 +356,8 @@
     "price": 0,
     "transfer": 0,
     "priceCard": 10695,
-    "image": "/pañales/estrella-p.png"
+    "image": "/pañales/estrella-p.png",
+    "category": "panales"
   },
   {
     "id": 37,
@@ -330,7 +366,8 @@
     "price": 13800,
     "transfer": 13800,
     "priceCard": 14950,
-    "image": "/pañales/estrella-b.png"
+    "image": "/pañales/estrella-b.png",
+    "category": "panales"
   },
   {
     "id": 38,
@@ -339,7 +376,8 @@
     "price": 15800,
     "transfer": 15800,
     "priceCard": 8970,
-    "image": "/pañales/estrella-premium-junior.png"
+    "image": "/pañales/estrella-premium-junior.png",
+    "category": "panales"
   },
   {
     "id": 39,
@@ -348,7 +386,8 @@
     "price": 0,
     "transfer": 0,
     "priceCard": 8970,
-    "image": "/pañales/t-h-j-a.png"
+    "image": "/pañales/t-h-j-a.png",
+    "category": "perfumeria"
   },
   {
     "id": 40,
@@ -357,7 +396,8 @@
     "price": 8000,
     "transfer": 8000,
     "priceCard": 8970,
-    "image": "/pañales/toallitas-h-t-p.png"
+    "image": "/pañales/toallitas-h-t-p.png",
+    "category": "perfumeria"
   },
   {
     "id": 41,
@@ -366,7 +406,8 @@
     "price": 12000,
     "transfer": 12000,
     "priceCard": 14950,
-    "image": "/pañales/toallitas-h-o.png"
+    "image": "/pañales/toallitas-h-o.png",
+    "category": "perfumeria"
   },
   {
     "id": 42,
@@ -375,7 +416,8 @@
     "price": 7800,
     "transfer": 7800,
     "priceCard": 9890,
-    "image": "/pañales/toallitas-h-o-48.png"
+    "image": "/pañales/toallitas-h-o-48.png",
+    "category": "perfumeria"
   },
   {
     "id": 43,
@@ -384,7 +426,8 @@
     "price": 3700,
     "transfer": 3700,
     "priceCard": 3565,
-    "image": "/pañales/toallitas-e.png"
+    "image": "/pañales/toallitas-e.png",
+    "category": "perfumeria"
   },
   {
     "id": 44,
@@ -393,7 +436,8 @@
     "price": 0,
     "transfer": 0,
     "priceCard": 3970,
-    "image": "/pañales/kimbies.png"
+    "image": "/pañales/kimbies.png",
+    "category": "perfumeria"
   },
   {
     "id": 45,
@@ -402,7 +446,8 @@
     "price": 0,
     "transfer": 0,
     "priceCard": 5100,
-    "image": "/pañales/kimbiesx120.png"
+    "image": "/pañales/kimbiesx120.png",
+    "category": "perfumeria"
   },
   {
     "id": 46,
@@ -411,7 +456,8 @@
     "price": 2100,
     "transfer": 2100,
     "priceCard": 2242,
-    "image": "/pañales/p-m-12.png"
+    "image": "/pañales/p-m-12.png",
+    "category": "perfumeria"
   },
   {
     "id": 47,
@@ -420,7 +466,8 @@
     "price": 3250,
     "transfer": 3250,
     "priceCard": 3680,
-    "image": "/pañales/p-m-24.png"
+    "image": "/pañales/p-m-24.png",
+    "category": "perfumeria"
   },
   {
     "id": 48,
@@ -429,7 +476,8 @@
     "price": 1700,
     "transfer": 1700,
     "priceCard": 1900,
-    "image": "/pañales/a-p-d-10.png"
+    "image": "/pañales/a-p-d-10.png",
+    "category": "perfumeria"
   },
   {
     "id": 49,
@@ -438,7 +486,8 @@
     "price": 6200,
     "transfer": 6200,
     "priceCard": 6279,
-    "image": "/pañales/a-j-v.png"
+    "image": "/pañales/a-j-v.png",
+    "category": "perfumeria"
   },
   {
     "id": 50,
@@ -447,7 +496,8 @@
     "price": 6200,
     "transfer": 6200,
     "priceCard": 6279,
-    "image": "/pañales/s-j-b.png"
+    "image": "/pañales/s-j-b.png",
+    "category": "perfumeria"
   },
   {
     "id": 51,
@@ -456,7 +506,8 @@
     "price": 11400,
     "transfer": 11400,
     "priceCard": 12880,
-    "image": "/pañales/s-j-b-400.png"
+    "image": "/pañales/s-j-b-400.png",
+    "category": "perfumeria"
   },
   {
     "id": 52,
@@ -465,7 +516,8 @@
     "price": 11400,
     "transfer": 11400,
     "priceCard": 12880,
-    "image": "/pañales/a-j-b.png"
+    "image": "/pañales/a-j-b.png",
+    "category": "perfumeria"
   },
   {
     "id": 53,
@@ -474,7 +526,8 @@
     "price": 16500,
     "transfer": 16500,
     "priceCard": 16905,
-    "image": "/pañales/pelela-3-piezas.png"
+    "image": "/pañales/pelela-3-piezas.png",
+    "category": "otros"
   },
   {
     "id": 54,
@@ -483,7 +536,8 @@
     "price": 0,
     "transfer": 0,
     "priceCard": 33580,
-    "image": "/pañales/bañera-plegable.png"
+    "image": "/pañales/bañera-plegable.png",
+    "category": "otros"
   },
   {
     "id": 55,
@@ -492,7 +546,8 @@
     "price": 0,
     "transfer": 0,
     "priceCard": 19320,
-    "image": "/pañales/bañera.png"
+    "image": "/pañales/bañera.png",
+    "category": "otros"
   },
   {
     "id": 56,
@@ -501,7 +556,8 @@
     "price": 2700,
     "transfer": 2700,
     "priceCard": 2760,
-    "image": "/pañales/toallitas-t.png"
+    "image": "/pañales/toallitas-t.png",
+    "category": "perfumeria"
   },
   {
     "id": 57,
@@ -510,7 +566,8 @@
     "price": 7900,
     "transfer": 7900,
     "priceCard": 7015,
-    "image": "/pañales/babydove-Shampoo-acondicionador.jpeg"
+    "image": "/pañales/babydove-Shampoo-acondicionador.jpeg",
+    "category": "perfumeria"
   },
   {
     "id": 58,
@@ -519,7 +576,8 @@
     "price": 0,
     "transfer": 0,
     "priceCard": 7245,
-    "image": "/pañales/babydove-baño-liquido.jpeg"
+    "image": "/pañales/babydove-baño-liquido.jpeg",
+    "category": "perfumeria"
   },
   {
     "id": 59,
@@ -528,7 +586,8 @@
     "price": 4000,
     "transfer": 4000,
     "priceCard": 5175,
-    "image": "/pañales/babydove-repuestos-baño-liquidp.jpeg"
+    "image": "/pañales/babydove-repuestos-baño-liquidp.jpeg",
+    "category": "perfumeria"
   },
   {
     "id": 60,
@@ -537,7 +596,8 @@
     "price": 12500,
     "transfer": 12500,
     "priceCard": 5175,
-    "image": "/pañales/toddler.jpg"
+    "image": "/pañales/toddler.jpg",
+    "category": "panales"
   },
   {
     "id": 61,
@@ -546,7 +606,8 @@
     "price": 9500,
     "transfer": 9500,
     "priceCard": 3970,
-    "image": "/oleos/oleo-estrella-950.png"
+    "image": "/oleos/oleo-estrella-950.png",
+    "category": "perfumeria"
   },
   {
     "id": 62,
@@ -555,7 +616,8 @@
     "price": 6000,
     "transfer": 6000,
     "priceCard": 3565,
-    "image": "/oleos/oleo-estrella-500.png"
+    "image": "/oleos/oleo-estrella-500.png",
+    "category": "perfumeria"
   },
   {
     "id": 63,
@@ -564,7 +626,8 @@
     "price": 4500,
     "transfer": 4500,
     "priceCard": 3970,
-    "image": "/oleos/oleo-estrella-245.png"
+    "image": "/oleos/oleo-estrella-245.png",
+    "category": "perfumeria"
   },
   {
     "id": 64,
@@ -573,7 +636,8 @@
     "price": 5500,
     "transfer": 5500,
     "priceCard": 3565,
-    "image": "/oleos/oleo-benare-970.png"
+    "image": "/oleos/oleo-benare-970.png",
+    "category": "perfumeria"
   },
   {
     "id": 65,
@@ -582,7 +646,8 @@
     "price": 4800,
     "transfer": 4800,
     "priceCard": 3565,
-    "image": "/algodon/algodon-estrella-400.png"
+    "image": "/algodon/algodon-estrella-400.png",
+    "category": "perfumeria"
   },
   {
     "id": 66,
@@ -591,7 +656,8 @@
     "price": 2500,
     "transfer": 2500,
     "priceCard": 3565,
-    "image": "/algodon/algodon-estrella-200.png"
+    "image": "/algodon/algodon-estrella-200.png",
+    "category": "perfumeria"
   },
   {
     "id": 67,
@@ -600,7 +666,8 @@
     "price": 1350,
     "transfer": 1350,
     "priceCard": 3565,
-    "image": "/algodon/algodon-estrella-100.png"
+    "image": "/algodon/algodon-estrella-100.png",
+    "category": "perfumeria"
   },
   {
     "id": 68,
@@ -609,7 +676,8 @@
     "price": 1350,
     "transfer": 1350,
     "priceCard": 3565,
-    "image": "/algodon/algodon-estrella-precortado-100.png"
+    "image": "/algodon/algodon-estrella-precortado-100.png",
+    "category": "perfumeria"
   },
   {
     "id": 69,
@@ -618,7 +686,8 @@
     "price": 4900,
     "transfer": 4900,
     "priceCard": 3565,
-    "image": "/algodon/algodon-doncella-500.png"
+    "image": "/algodon/algodon-doncella-500.png",
+    "category": "perfumeria"
   },
   {
     "id": 70,
@@ -627,7 +696,8 @@
     "price": 3200,
     "transfer": 3200,
     "priceCard": 3565,
-    "image": "/algodon/algodon-doncella-300.png"
+    "image": "/algodon/algodon-doncella-300.png",
+    "category": "perfumeria"
   },
   {
     "id": 71,
@@ -636,7 +706,8 @@
     "price": 750,
     "transfer": 750,
     "priceCard": 3565,
-    "image": "/algodon/algodon-doncella-70.png"
+    "image": "/algodon/algodon-doncella-70.png",
+    "category": "perfumeria"
   },
   {
     "id": 72,
@@ -645,7 +716,8 @@
     "price": 1900,
     "transfer": 1900,
     "priceCard": 3565,
-    "image": "/jabones/jabon-jhonson-baby-80gr.png"
+    "image": "/jabones/jabon-jhonson-baby-80gr.png",
+    "category": "perfumeria"
   },
   {
     "id": 73,
@@ -654,7 +726,8 @@
     "price": 4000,
     "transfer": 4000,
     "priceCard": 3565,
-    "image": "/pañales/toalitas-babysec-120.png"
+    "image": "/pañales/toalitas-babysec-120.png",
+    "category": "perfumeria"
   },
   {
     "id": 74,
@@ -663,7 +736,8 @@
     "price": 45000,
     "transfer": 45000,
     "priceCard": 3565,
-    "image": "/pañales/bañera-termometro.png"
+    "image": "/pañales/bañera-termometro.png",
+    "category": "otros"
   },
   {
     "id": 75,
@@ -672,7 +746,8 @@
     "price": 57000,
     "transfer": 57000,
     "priceCard": 57000,
-    "image": "/productos/1.png"
+    "image": "/productos/1.png",
+    "category": "panales"
   },
   {
     "id": 76,
@@ -681,7 +756,8 @@
     "price": 17000,
     "transfer": 17000,
     "priceCard": 17000,
-    "image": "/productos/2.png"
+    "image": "/productos/2.png",
+    "category": "otros"
   },
   {
     "id": 77,
@@ -690,7 +766,8 @@
     "price": 27000,
     "transfer": 27000,
     "priceCard": 27000,
-    "image": "/productos/3.png"
+    "image": "/productos/3.png",
+    "category": "otros"
   },
   {
     "id": 78,
@@ -699,7 +776,8 @@
     "price": 21000,
     "transfer": 21000,
     "priceCard": 21000,
-    "image": "/productos/4.png"
+    "image": "/productos/4.png",
+    "category": "otros"
   },
   {
     "id": 79,
@@ -708,7 +786,8 @@
     "price": 36000,
     "transfer": 36000,
     "priceCard": 36000,
-    "image": "/productos/5.png"
+    "image": "/productos/5.png",
+    "category": "otros"
   },
   {
     "id": 80,
@@ -717,7 +796,8 @@
     "price": 42000,
     "transfer": 42000,
     "priceCard": 42000,
-    "image": "/productos/6.png"
+    "image": "/productos/6.png",
+    "category": "otros"
   },
   {
     "id": 81,
@@ -726,7 +806,8 @@
     "price": 34000,
     "transfer": 34000,
     "priceCard": 34000,
-    "image": "/productos/7.png"
+    "image": "/productos/7.png",
+    "category": "otros"
   },
   {
     "id": 82,
@@ -735,7 +816,8 @@
     "price": 17000,
     "transfer": 17000,
     "priceCard": 17000,
-    "image": "/productos/8.png"
+    "image": "/productos/8.png",
+    "category": "otros"
   },
   {
     "id": 83,
@@ -744,7 +826,8 @@
     "price": 12000,
     "transfer": 12000,
     "priceCard": 12000,
-    "image": "/productos/9.png"
+    "image": "/productos/9.png",
+    "category": "otros"
   },
   {
     "id": 84,
@@ -753,7 +836,8 @@
     "price": 14000,
     "transfer": 14000,
     "priceCard": 14000,
-    "image": "/productos/10.png"
+    "image": "/productos/10.png",
+    "category": "juguetes"
   },
   {
     "id": 85,
@@ -762,7 +846,8 @@
     "price": 14000,
     "transfer": 14000,
     "priceCard": 14000,
-    "image": "/productos/11.png"
+    "image": "/productos/11.png",
+    "category": "juguetes"
   },
   {
     "id": 86,
@@ -771,7 +856,8 @@
     "price": 8000,
     "transfer": 8000,
     "priceCard": 8000,
-    "image": "/productos/12.png"
+    "image": "/productos/12.png",
+    "category": "juguetes"
   },
   {
     "id": 87,
@@ -780,7 +866,8 @@
     "price": 19000,
     "transfer": 19000,
     "priceCard": 19000,
-    "image": "/productos/13.png"
+    "image": "/productos/13.png",
+    "category": "juguetes"
   },
   {
     "id": 88,
@@ -789,7 +876,8 @@
     "price": 17000,
     "transfer": 17000,
     "priceCard": 17000,
-    "image": "/productos/14.png"
+    "image": "/productos/14.png",
+    "category": "juguetes"
   },
   {
     "id": 89,
@@ -798,7 +886,8 @@
     "price": 17000,
     "transfer": 17000,
     "priceCard": 17000,
-    "image": "/productos/15.png"
+    "image": "/productos/15.png",
+    "category": "juguetes"
   },
   {
     "id": 90,
@@ -807,7 +896,8 @@
     "price": 16000,
     "transfer": 16000,
     "priceCard": 16000,
-    "image": "/productos/16.png"
+    "image": "/productos/16.png",
+    "category": "juguetes"
   },
   {
     "id": 91,
@@ -816,7 +906,8 @@
     "price": 18000,
     "transfer": 18000,
     "priceCard": 18000,
-    "image": "/productos/17.png"
+    "image": "/productos/17.png",
+    "category": "juguetes"
   },
   {
     "id": 92,
@@ -825,7 +916,8 @@
     "price": 19000,
     "transfer": 19000,
     "priceCard": 19000,
-    "image": "/productos/18.png"
+    "image": "/productos/18.png",
+    "category": "juguetes"
   },
   {
     "id": 93,
@@ -834,7 +926,8 @@
     "price": 27000,
     "transfer": 27000,
     "priceCard": 27000,
-    "image": "/productos/19.png"
+    "image": "/productos/19.png",
+    "category": "juguetes"
   },
   {
     "id": 94,
@@ -843,7 +936,8 @@
     "price": 27000,
     "transfer": 27000,
     "priceCard": 27000,
-    "image": "/productos/20.png"
+    "image": "/productos/20.png",
+    "category": "juguetes"
   },
   {
     "id": 95,
@@ -852,7 +946,8 @@
     "price": 18000,
     "transfer": 18000,
     "priceCard": 18000,
-    "image": "/productos/21.png"
+    "image": "/productos/21.png",
+    "category": "juguetes"
   },
   {
     "id": 96,
@@ -861,7 +956,8 @@
     "price": 15000,
     "transfer": 15000,
     "priceCard": 15000,
-    "image": "/productos/22.png"
+    "image": "/productos/22.png",
+    "category": "juguetes"
   },
   {
     "id": 97,
@@ -870,7 +966,8 @@
     "price": 16000,
     "transfer": 16000,
     "priceCard": 16000,
-    "image": "/productos/23.png"
+    "image": "/productos/23.png",
+    "category": "otros"
   },
   {
     "id": 98,
@@ -879,7 +976,8 @@
     "price": 16000,
     "transfer": 16000,
     "priceCard": 16000,
-    "image": "/productos/24.png"
+    "image": "/productos/24.png",
+    "category": "otros"
   },
   {
     "id": 99,
@@ -888,7 +986,8 @@
     "price": 16000,
     "transfer": 16000,
     "priceCard": 16000,
-    "image": "/productos/25.png"
+    "image": "/productos/25.png",
+    "category": "otros"
   },
   {
     "id": 100,
@@ -897,7 +996,8 @@
     "price": 13000,
     "transfer": 13000,
     "priceCard": 13000,
-    "image": "/productos/26.png"
+    "image": "/productos/26.png",
+    "category": "juguetes"
   },
   {
     "id": 101,
@@ -906,7 +1006,8 @@
     "price": 13000,
     "transfer": 13000,
     "priceCard": 13000,
-    "image": "/productos/27.png"
+    "image": "/productos/27.png",
+    "category": "juguetes"
   },
   {
     "id": 102,
@@ -915,7 +1016,8 @@
     "price": 23000,
     "transfer": 23000,
     "priceCard": 23000,
-    "image": "/productos/28.png"
+    "image": "/productos/28.png",
+    "category": "juguetes"
   },
   {
     "id": 103,
@@ -924,7 +1026,8 @@
     "price": 23000,
     "transfer": 23000,
     "priceCard": 23000,
-    "image": "/productos/29.png"
+    "image": "/productos/29.png",
+    "category": "juguetes"
   },
   {
     "id": 104,
@@ -933,7 +1036,8 @@
     "price": 23000,
     "transfer": 23000,
     "priceCard": 23000,
-    "image": "/productos/30.png"
+    "image": "/productos/30.png",
+    "category": "juguetes"
   },
   {
     "id": 105,
@@ -942,7 +1046,8 @@
     "price": 41000,
     "transfer": 41000,
     "priceCard": 41000,
-    "image": "/productos/31.png"
+    "image": "/productos/31.png",
+    "category": "otros"
   },
   {
     "id": 106,
@@ -951,7 +1056,8 @@
     "price": 14000,
     "transfer": 14000,
     "priceCard": 14000,
-    "image": "/productos/32.png"
+    "image": "/productos/32.png",
+    "category": "juguetes"
   },
   {
     "id": 107,
@@ -960,7 +1066,8 @@
     "price": 16000,
     "transfer": 16000,
     "priceCard": 16000,
-    "image": "/productos/33.png"
+    "image": "/productos/33.png",
+    "category": "juguetes"
   },
   {
     "id": 108,
@@ -969,7 +1076,8 @@
     "price": 39000,
     "transfer": 39000,
     "priceCard": 39000,
-    "image": "/productos/34.png"
+    "image": "/productos/34.png",
+    "category": "juguetes"
   },
   {
     "id": 109,
@@ -978,7 +1086,8 @@
     "price": 18000,
     "transfer": 18000,
     "priceCard": 18000,
-    "image": "/productos/35.png"
+    "image": "/productos/35.png",
+    "category": "otros"
   },
   {
     "id": 110,
@@ -987,7 +1096,8 @@
     "price": 18000,
     "transfer": 18000,
     "priceCard": 18000,
-    "image": "/productos/36.png"
+    "image": "/productos/36.png",
+    "category": "otros"
   },
   {
     "id": 111,
@@ -996,7 +1106,8 @@
     "price": 18000,
     "transfer": 18000,
     "priceCard": 18000,
-    "image": "/productos/37.png"
+    "image": "/productos/37.png",
+    "category": "otros"
   },
   {
     "id": 112,
@@ -1005,7 +1116,8 @@
     "price": 12000,
     "transfer": 12000,
     "priceCard": 12000,
-    "image": "/productos/38.png"
+    "image": "/productos/38.png",
+    "category": "juguetes"
   },
   {
     "id": 113,
@@ -1014,7 +1126,8 @@
     "price": 31000,
     "transfer": 31000,
     "priceCard": 31000,
-    "image": "/productos/39.png"
+    "image": "/productos/39.png",
+    "category": "otros"
   },
   {
     "id": 114,
@@ -1023,7 +1136,8 @@
     "price": 6000,
     "transfer": 6000,
     "priceCard": 6000,
-    "image": "/productos/40.png"
+    "image": "/productos/40.png",
+    "category": "juguetes"
   },
   {
     "id": 115,
@@ -1032,7 +1146,8 @@
     "price": 8000,
     "transfer": 8000,
     "priceCard": 8000,
-    "image": "/productos/41.png"
+    "image": "/productos/41.png",
+    "category": "juguetes"
   },
   {
     "id": 116,
@@ -1041,7 +1156,8 @@
     "price": 7000,
     "transfer": 7000,
     "priceCard": 7000,
-    "image": "/productos/42.png"
+    "image": "/productos/42.png",
+    "category": "otros"
   },
   {
     "id": 117,
@@ -1050,7 +1166,8 @@
     "price": 7000,
     "transfer": 7000,
     "priceCard": 7000,
-    "image": "/productos/43.png"
+    "image": "/productos/43.png",
+    "category": "otros"
   },
   {
     "id": 118,
@@ -1059,7 +1176,8 @@
     "price": 7000,
     "transfer": 7000,
     "priceCard": 7000,
-    "image": "/productos/44.png"
+    "image": "/productos/44.png",
+    "category": "otros"
   },
   {
     "id": 119,
@@ -1068,7 +1186,8 @@
     "price": 7000,
     "transfer": 7000,
     "priceCard": 7000,
-    "image": "/productos/45.png"
+    "image": "/productos/45.png",
+    "category": "otros"
   },
   {
     "id": 120,
@@ -1077,7 +1196,8 @@
     "price": 17000,
     "transfer": 17000,
     "priceCard": 17000,
-    "image": "/productos/46.png"
+    "image": "/productos/46.png",
+    "category": "juguetes"
   },
   {
     "id": 121,
@@ -1086,7 +1206,8 @@
     "price": 28000,
     "transfer": 28000,
     "priceCard": 28000,
-    "image": "/productos/47.png"
+    "image": "/productos/47.png",
+    "category": "juguetes"
   },
   {
     "id": 122,
@@ -1095,7 +1216,8 @@
     "price": 10000,
     "transfer": 10000,
     "priceCard": 10000,
-    "image": "/productos/48.png"
+    "image": "/productos/48.png",
+    "category": "juguetes"
   },
   {
     "id": 123,
@@ -1104,7 +1226,8 @@
     "price": 13000,
     "transfer": 13000,
     "priceCard": 13000,
-    "image": "/productos/49.png"
+    "image": "/productos/49.png",
+    "category": "juguetes"
   },
   {
     "id": 124,
@@ -1113,7 +1236,8 @@
     "price": 13000,
     "transfer": 13000,
     "priceCard": 13000,
-    "image": "/productos/50.png"
+    "image": "/productos/50.png",
+    "category": "juguetes"
   },
   {
     "id": 125,
@@ -1122,7 +1246,8 @@
     "price": 13000,
     "transfer": 13000,
     "priceCard": 13000,
-    "image": "/productos/51.png"
+    "image": "/productos/51.png",
+    "category": "juguetes"
   },
   {
     "id": 126,
@@ -1131,7 +1256,8 @@
     "price": 13000,
     "transfer": 13000,
     "priceCard": 13000,
-    "image": "/productos/52.png"
+    "image": "/productos/52.png",
+    "category": "juguetes"
   },
   {
     "id": 127,
@@ -1140,7 +1266,8 @@
     "price": 13000,
     "transfer": 13000,
     "priceCard": 13000,
-    "image": "/productos/53.png"
+    "image": "/productos/53.png",
+    "category": "juguetes"
   },
   {
     "id": 128,
@@ -1149,7 +1276,8 @@
     "price": 14000,
     "transfer": 14000,
     "priceCard": 14000,
-    "image": "/productos/54.png"
+    "image": "/productos/54.png",
+    "category": "juguetes"
   },
   {
     "id": 129,
@@ -1158,7 +1286,8 @@
     "price": 14000,
     "transfer": 14000,
     "priceCard": 14000,
-    "image": "/productos/55.png"
+    "image": "/productos/55.png",
+    "category": "juguetes"
   },
   {
     "id": 130,
@@ -1167,7 +1296,8 @@
     "price": 14000,
     "transfer": 14000,
     "priceCard": 14000,
-    "image": "/productos/56.png"
+    "image": "/productos/56.png",
+    "category": "juguetes"
   },
   {
     "id": 131,
@@ -1176,7 +1306,8 @@
     "price": 14000,
     "transfer": 14000,
     "priceCard": 14000,
-    "image": "/productos/57.png"
+    "image": "/productos/57.png",
+    "category": "juguetes"
   },
   {
     "id": 132,
@@ -1185,7 +1316,8 @@
     "price": 20000,
     "transfer": 20000,
     "priceCard": 20000,
-    "image": "/productos/58.png"
+    "image": "/productos/58.png",
+    "category": "juguetes"
   },
   {
     "id": 133,
@@ -1194,7 +1326,8 @@
     "price": 20000,
     "transfer": 20000,
     "priceCard": 20000,
-    "image": "/productos/59.png"
+    "image": "/productos/59.png",
+    "category": "juguetes"
   },
   {
     "id": 134,
@@ -1203,7 +1336,8 @@
     "price": 20000,
     "transfer": 20000,
     "priceCard": 20000,
-    "image": "/productos/60.png"
+    "image": "/productos/60.png",
+    "category": "juguetes"
   },
   {
     "id": 135,
@@ -1212,7 +1346,8 @@
     "price": 20000,
     "transfer": 20000,
     "priceCard": 20000,
-    "image": "/productos/61.png"
+    "image": "/productos/61.png",
+    "category": "juguetes"
   },
   {
     "id": 136,
@@ -1221,7 +1356,8 @@
     "price": 23000,
     "transfer": 23000,
     "priceCard": 23000,
-    "image": "/productos/62.png"
+    "image": "/productos/62.png",
+    "category": "juguetes"
   },
   {
     "id": 137,
@@ -1230,7 +1366,8 @@
     "price": 23000,
     "transfer": 23000,
     "priceCard": 23000,
-    "image": "/productos/63.png"
+    "image": "/productos/63.png",
+    "category": "juguetes"
   },
   {
     "id": 138,
@@ -1239,7 +1376,8 @@
     "price": 22000,
     "transfer": 22000,
     "priceCard": 22000,
-    "image": "/productos/64.png"
+    "image": "/productos/64.png",
+    "category": "juguetes"
   },
   {
     "id": 139,
@@ -1248,7 +1386,8 @@
     "price": 28000,
     "transfer": 28000,
     "priceCard": 28000,
-    "image": "/productos/65.png"
+    "image": "/productos/65.png",
+    "category": "juguetes"
   },
   {
     "id": 140,
@@ -1257,7 +1396,8 @@
     "price": 35000,
     "transfer": 35000,
     "priceCard": 35000,
-    "image": "/productos/66.png"
+    "image": "/productos/66.png",
+    "category": "juguetes"
   },
   {
     "id": 141,
@@ -1266,7 +1406,8 @@
     "price": 18000,
     "transfer": 18000,
     "priceCard": 18000,
-    "image": "/productos/67.png"
+    "image": "/productos/67.png",
+    "category": "juguetes"
   },
   {
     "id": 142,
@@ -1275,7 +1416,8 @@
     "price": 33000,
     "transfer": 33000,
     "priceCard": 33000,
-    "image": "/productos/68.png"
+    "image": "/productos/68.png",
+    "category": "juguetes"
   },
   {
     "id": 143,
@@ -1284,7 +1426,8 @@
     "price": 17000,
     "transfer": 17000,
     "priceCard": 17000,
-    "image": "/productos/69.png"
+    "image": "/productos/69.png",
+    "category": "juguetes"
   },
   {
     "id": 144,
@@ -1293,7 +1436,8 @@
     "price": 17000,
     "transfer": 17000,
     "priceCard": 17000,
-    "image": "/productos/70.png"
+    "image": "/productos/70.png",
+    "category": "juguetes"
   },
   {
     "id": 145,
@@ -1302,7 +1446,8 @@
     "price": 3000,
     "transfer": 3000,
     "priceCard": 3000,
-    "image": "/productos/71.png"
+    "image": "/productos/71.png",
+    "category": "otros"
   },
   {
     "id": 146,
@@ -1311,7 +1456,8 @@
     "price": 18000,
     "transfer": 18000,
     "priceCard": 18000,
-    "image": "/productos/72.png"
+    "image": "/productos/72.png",
+    "category": "otros"
   },
   {
     "id": 147,
@@ -1320,7 +1466,8 @@
     "price": 18000,
     "transfer": 18000,
     "priceCard": 18000,
-    "image": "/productos/73.png"
+    "image": "/productos/73.png",
+    "category": "juguetes"
   },
   {
     "id": 148,
@@ -1329,7 +1476,8 @@
     "price": 18000,
     "transfer": 18000,
     "priceCard": 18000,
-    "image": "/productos/74.png"
+    "image": "/productos/74.png",
+    "category": "otros"
   },
   {
     "id": 149,
@@ -1338,7 +1486,8 @@
     "price": 8000,
     "transfer": 8000,
     "priceCard": 8000,
-    "image": "/productos/75.png"
+    "image": "/productos/75.png",
+    "category": "otros"
   },
   {
     "id": 150,
@@ -1347,7 +1496,8 @@
     "price": 8000,
     "transfer": 8000,
     "priceCard": 8000,
-    "image": "/productos/76.png"
+    "image": "/productos/76.png",
+    "category": "otros"
   },
   {
     "id": 151,
@@ -1356,7 +1506,8 @@
     "price": 20000,
     "transfer": 20000,
     "priceCard": 20000,
-    "image": "/productos/77.png"
+    "image": "/productos/77.png",
+    "category": "juguetes"
   },
   {
     "id": 152,
@@ -1365,7 +1516,8 @@
     "price": 22000,
     "transfer": 22000,
     "priceCard": 22000,
-    "image": "/productos/78.png"
+    "image": "/productos/78.png",
+    "category": "juguetes"
   },
   {
     "id": 153,
@@ -1374,7 +1526,8 @@
     "price": 10000,
     "transfer": 10000,
     "priceCard": 10000,
-    "image": "/productos/79.png"
+    "image": "/productos/79.png",
+    "category": "otros"
   },
   {
     "id": 154,
@@ -1383,7 +1536,8 @@
     "price": 12000,
     "transfer": 12000,
     "priceCard": 12000,
-    "image": "/productos/80.png"
+    "image": "/productos/80.png",
+    "category": "otros"
   },
   {
     "id": 155,
@@ -1392,7 +1546,8 @@
     "price": 7000,
     "transfer": 7000,
     "priceCard": 7000,
-    "image": "/productos/81.png"
+    "image": "/productos/81.png",
+    "category": "otros"
   },
   {
     "id": 156,
@@ -1401,7 +1556,8 @@
     "price": 7000,
     "transfer": 7000,
     "priceCard": 7000,
-    "image": "/productos/82.png"
+    "image": "/productos/82.png",
+    "category": "otros"
   },
   {
     "id": 157,
@@ -1410,7 +1566,8 @@
     "price": 10000,
     "transfer": 10000,
     "priceCard": 10000,
-    "image": "/productos/83.png"
+    "image": "/productos/83.png",
+    "category": "otros"
   },
   {
     "id": 158,
@@ -1419,7 +1576,8 @@
     "price": 10000,
     "transfer": 10000,
     "priceCard": 10000,
-    "image": "/productos/84.png"
+    "image": "/productos/84.png",
+    "category": "otros"
   },
   {
     "id": 159,
@@ -1428,7 +1586,8 @@
     "price": 4000,
     "transfer": 4000,
     "priceCard": 4000,
-    "image": "/productos/85.png"
+    "image": "/productos/85.png",
+    "category": "otros"
   },
   {
     "id": 160,
@@ -1437,7 +1596,8 @@
     "price": 4000,
     "transfer": 4000,
     "priceCard": 4000,
-    "image": "/productos/86.png"
+    "image": "/productos/86.png",
+    "category": "otros"
   },
   {
     "id": 161,
@@ -1446,7 +1606,8 @@
     "price": 23000,
     "transfer": 23000,
     "priceCard": 23000,
-    "image": "/productos/87.png"
+    "image": "/productos/87.png",
+    "category": "otros"
   },
   {
     "id": 162,
@@ -1455,7 +1616,8 @@
     "price": 11000,
     "transfer": 11000,
     "priceCard": 11000,
-    "image": "/productos/88.png"
+    "image": "/productos/88.png",
+    "category": "juguetes"
   },
   {
     "id": 163,
@@ -1464,7 +1626,8 @@
     "price": 12000,
     "transfer": 12000,
     "priceCard": 12000,
-    "image": "/productos/89.png"
+    "image": "/productos/89.png",
+    "category": "juguetes"
   },
   {
     "id": 164,
@@ -1473,7 +1636,8 @@
     "price": 43000,
     "transfer": 43000,
     "priceCard": 43000,
-    "image": "/productos/90.png"
+    "image": "/productos/90.png",
+    "category": "juguetes"
   },
   {
     "id": 165,
@@ -1482,7 +1646,8 @@
     "price": 29000,
     "transfer": 29000,
     "priceCard": 29000,
-    "image": "/productos/91.png"
+    "image": "/productos/91.png",
+    "category": "otros"
   },
   {
     "id": 166,
@@ -1491,7 +1656,8 @@
     "price": 13000,
     "transfer": 13000,
     "priceCard": 13000,
-    "image": "/productos/92.png"
+    "image": "/productos/92.png",
+    "category": "juguetes"
   },
   {
     "id": 167,
@@ -1500,7 +1666,8 @@
     "price": 31000,
     "transfer": 31000,
     "priceCard": 31000,
-    "image": "/productos/93.png"
+    "image": "/productos/93.png",
+    "category": "juguetes"
   },
   {
     "id": 168,
@@ -1509,7 +1676,8 @@
     "price": 14000,
     "transfer": 14000,
     "priceCard": 14000,
-    "image": "/productos/94.png"
+    "image": "/productos/94.png",
+    "category": "otros"
   },
   {
     "id": 169,
@@ -1518,7 +1686,8 @@
     "price": 21000,
     "transfer": 21000,
     "priceCard": 21000,
-    "image": "/productos/95.png"
+    "image": "/productos/95.png",
+    "category": "otros"
   },
   {
     "id": 170,
@@ -1527,7 +1696,8 @@
     "price": 4000,
     "transfer": 4000,
     "priceCard": 4000,
-    "image": "/productos/96.png"
+    "image": "/productos/96.png",
+    "category": "otros"
   },
   {
     "id": 171,
@@ -1536,7 +1706,8 @@
     "price": 6000,
     "transfer": 6000,
     "priceCard": 6000,
-    "image": "/productos/97.png"
+    "image": "/productos/97.png",
+    "category": "otros"
   },
   {
     "id": 172,
@@ -1545,7 +1716,8 @@
     "price": 6000,
     "transfer": 6000,
     "priceCard": 6000,
-    "image": "/productos/98.png"
+    "image": "/productos/98.png",
+    "category": "otros"
   },
   {
     "id": 173,
@@ -1554,7 +1726,8 @@
     "price": 17000,
     "transfer": 17000,
     "priceCard": 17000,
-    "image": "/productos/99.png"
+    "image": "/productos/99.png",
+    "category": "otros"
   },
   {
     "id": 174,
@@ -1563,7 +1736,8 @@
     "price": 16000,
     "transfer": 16000,
     "priceCard": 16000,
-    "image": "/productos/100.png"
+    "image": "/productos/100.png",
+    "category": "otros"
   },
   {
     "id": 175,
@@ -1572,7 +1746,8 @@
     "price": 23000,
     "transfer": 23000,
     "priceCard": 23000,
-    "image": "/productos/101.png"
+    "image": "/productos/101.png",
+    "category": "juguetes"
   },
   {
     "id": 176,
@@ -1581,7 +1756,8 @@
     "price": 22000,
     "transfer": 22000,
     "priceCard": 22000,
-    "image": "/productos/102.png"
+    "image": "/productos/102.png",
+    "category": "juguetes"
   },
   {
     "id": 177,
@@ -1590,7 +1766,8 @@
     "price": 65000,
     "transfer": 65000,
     "priceCard": 65000,
-    "image": "/productos/103.png"
+    "image": "/productos/103.png",
+    "category": "juguetes"
   },
   {
     "id": 178,
@@ -1599,7 +1776,8 @@
     "price": 35000,
     "transfer": 35000,
     "priceCard": 35000,
-    "image": "/productos/104.png"
+    "image": "/productos/104.png",
+    "category": "juguetes"
   },
   {
     "id": 179,
@@ -1608,7 +1786,8 @@
     "price": 8000,
     "transfer": 8000,
     "priceCard": 8000,
-    "image": "/productos/105.png"
+    "image": "/productos/105.png",
+    "category": "juguetes"
   },
   {
     "id": 180,
@@ -1617,7 +1796,8 @@
     "price": 11000,
     "transfer": 11000,
     "priceCard": 11000,
-    "image": "/productos/106.png"
+    "image": "/productos/106.png",
+    "category": "juguetes"
   },
   {
     "id": 181,
@@ -1626,7 +1806,8 @@
     "price": 11000,
     "transfer": 11000,
     "priceCard": 11000,
-    "image": "/productos/107.png"
+    "image": "/productos/107.png",
+    "category": "juguetes"
   },
   {
     "id": 182,
@@ -1635,7 +1816,8 @@
     "price": 11000,
     "transfer": 11000,
     "priceCard": 11000,
-    "image": "/productos/108.png"
+    "image": "/productos/108.png",
+    "category": "juguetes"
   },
   {
     "id": 183,
@@ -1644,7 +1826,8 @@
     "price": 16000,
     "transfer": 16000,
     "priceCard": 16000,
-    "image": "/productos/109.png"
+    "image": "/productos/109.png",
+    "category": "otros"
   },
   {
     "id": 184,
@@ -1653,7 +1836,8 @@
     "price": 11000,
     "transfer": 11000,
     "priceCard": 11000,
-    "image": "/productos/110.png"
+    "image": "/productos/110.png",
+    "category": "otros"
   },
   {
     "id": 185,
@@ -1662,7 +1846,8 @@
     "price": 21000,
     "transfer": 21000,
     "priceCard": 21000,
-    "image": "/productos/111.png"
+    "image": "/productos/111.png",
+    "category": "otros"
   },
   {
     "id": 186,
@@ -1671,7 +1856,8 @@
     "price": 26000,
     "transfer": 26000,
     "priceCard": 26000,
-    "image": "/productos/112.png"
+    "image": "/productos/112.png",
+    "category": "otros"
   },
   {
     "id": 187,
@@ -1680,7 +1866,8 @@
     "price": 34000,
     "transfer": 34000,
     "priceCard": 34000,
-    "image": "/productos/113.png"
+    "image": "/productos/113.png",
+    "category": "otros"
   },
   {
     "id": 188,
@@ -1689,7 +1876,8 @@
     "price": 40000,
     "transfer": 40000,
     "priceCard": 40000,
-    "image": "/productos/114.png"
+    "image": "/productos/114.png",
+    "category": "otros"
   },
   {
     "id": 189,
@@ -1698,7 +1886,8 @@
     "price": 24000,
     "transfer": 24000,
     "priceCard": 24000,
-    "image": "/productos/115.png"
+    "image": "/productos/115.png",
+    "category": "juguetes"
   },
   {
     "id": 190,
@@ -1707,7 +1896,8 @@
     "price": 24000,
     "transfer": 24000,
     "priceCard": 24000,
-    "image": "/productos/116.png"
+    "image": "/productos/116.png",
+    "category": "juguetes"
   },
   {
     "id": 191,
@@ -1716,7 +1906,8 @@
     "price": 26000,
     "transfer": 26000,
     "priceCard": 26000,
-    "image": "/productos/117.png"
+    "image": "/productos/117.png",
+    "category": "juguetes"
   },
   {
     "id": 192,
@@ -1725,7 +1916,8 @@
     "price": 25000,
     "transfer": 25000,
     "priceCard": 25000,
-    "image": "/productos/118.png"
+    "image": "/productos/118.png",
+    "category": "juguetes"
   },
   {
     "id": 193,
@@ -1734,7 +1926,8 @@
     "price": 53000,
     "transfer": 53000,
     "priceCard": 53000,
-    "image": "/productos/119.png"
+    "image": "/productos/119.png",
+    "category": "otros"
   },
   {
     "id": 194,
@@ -1743,7 +1936,8 @@
     "price": 22000,
     "transfer": 22000,
     "priceCard": 22000,
-    "image": "/productos/120.png"
+    "image": "/productos/120.png",
+    "category": "otros"
   },
   {
     "id": 195,
@@ -1752,7 +1946,8 @@
     "price": 22000,
     "transfer": 22000,
     "priceCard": 22000,
-    "image": "/productos/121.png"
+    "image": "/productos/121.png",
+    "category": "otros"
   },
   {
     "id": 196,
@@ -1761,7 +1956,8 @@
     "price": 31000,
     "transfer": 31000,
     "priceCard": 31000,
-    "image": "/productos/122.png"
+    "image": "/productos/122.png",
+    "category": "juguetes"
   },
   {
     "id": 197,
@@ -1770,7 +1966,8 @@
     "price": 31000,
     "transfer": 31000,
     "priceCard": 31000,
-    "image": "/productos/123.png"
+    "image": "/productos/123.png",
+    "category": "juguetes"
   },
   {
     "id": 198,
@@ -1779,7 +1976,8 @@
     "price": 25000,
     "transfer": 25000,
     "priceCard": 25000,
-    "image": "/productos/124.png"
+    "image": "/productos/124.png",
+    "category": "otros"
   },
   {
     "id": 199,
@@ -1788,7 +1986,8 @@
     "price": 25000,
     "transfer": 25000,
     "priceCard": 25000,
-    "image": "/productos/125.png"
+    "image": "/productos/125.png",
+    "category": "otros"
   },
   {
     "id": 200,
@@ -1797,7 +1996,8 @@
     "price": 25000,
     "transfer": 25000,
     "priceCard": 25000,
-    "image": "/productos/126.png"
+    "image": "/productos/126.png",
+    "category": "otros"
   },
   {
     "id": 201,
@@ -1806,7 +2006,8 @@
     "price": 25000,
     "transfer": 25000,
     "priceCard": 25000,
-    "image": "/productos/127.png"
+    "image": "/productos/127.png",
+    "category": "otros"
   },
   {
     "id": 202,
@@ -1815,7 +2016,8 @@
     "price": 35000,
     "transfer": 35000,
     "priceCard": 35000,
-    "image": "/productos/128.png"
+    "image": "/productos/128.png",
+    "category": "juguetes"
   },
   {
     "id": 203,
@@ -1824,7 +2026,8 @@
     "price": 16000,
     "transfer": 16000,
     "priceCard": 16000,
-    "image": "/productos/129.png"
+    "image": "/productos/129.png",
+    "category": "otros"
   },
   {
     "id": 204,
@@ -1833,7 +2036,8 @@
     "price": 16000,
     "transfer": 16000,
     "priceCard": 16000,
-    "image": "/productos/130.png"
+    "image": "/productos/130.png",
+    "category": "otros"
   },
   {
     "id": 205,
@@ -1842,7 +2046,8 @@
     "price": 23000,
     "transfer": 23000,
     "priceCard": 23000,
-    "image": "/productos/131.png"
+    "image": "/productos/131.png",
+    "category": "otros"
   },
   {
     "id": 206,
@@ -1851,7 +2056,8 @@
     "price": 18000,
     "transfer": 18000,
     "priceCard": 18000,
-    "image": "/productos/132.png"
+    "image": "/productos/132.png",
+    "category": "juguetes"
   },
   {
     "id": 207,
@@ -1860,7 +2066,8 @@
     "price": 43000,
     "transfer": 43000,
     "priceCard": 43000,
-    "image": "/productos/133.png"
+    "image": "/productos/133.png",
+    "category": "otros"
   },
   {
     "id": 208,
@@ -1869,7 +2076,8 @@
     "price": 61000,
     "transfer": 61000,
     "priceCard": 61000,
-    "image": "/productos/134.png"
+    "image": "/productos/134.png",
+    "category": "otros"
   },
   {
     "id": 209,
@@ -1878,7 +2086,8 @@
     "price": 43000,
     "transfer": 43000,
     "priceCard": 43000,
-    "image": "/productos/135.png"
+    "image": "/productos/135.png",
+    "category": "otros"
   },
   {
     "id": 210,
@@ -1887,7 +2096,8 @@
     "price": 46000,
     "transfer": 46000,
     "priceCard": 46000,
-    "image": "/productos/136.png"
+    "image": "/productos/136.png",
+    "category": "otros"
   },
   {
     "id": 211,
@@ -1896,7 +2106,8 @@
     "price": 50000,
     "transfer": 50000,
     "priceCard": 50000,
-    "image": "/productos/137.png"
+    "image": "/productos/137.png",
+    "category": "otros"
   },
   {
     "id": 212,
@@ -1905,7 +2116,8 @@
     "price": 24000,
     "transfer": 24000,
     "priceCard": 24000,
-    "image": "/productos/138.png"
+    "image": "/productos/138.png",
+    "category": "juguetes"
   },
   {
     "id": 213,
@@ -1914,7 +2126,8 @@
     "price": 100000,
     "transfer": 100000,
     "priceCard": 100000,
-    "image": "/productos/139.png"
+    "image": "/productos/139.png",
+    "category": "juguetes"
   },
   {
     "id": 214,
@@ -1923,7 +2136,8 @@
     "price": 100000,
     "transfer": 100000,
     "priceCard": 100000,
-    "image": "/productos/140.png"
+    "image": "/productos/140.png",
+    "category": "carritos"
   },
   {
     "id": 215,
@@ -1932,7 +2146,8 @@
     "price": 100000,
     "transfer": 100000,
     "priceCard": 100000,
-    "image": "/productos/141.png"
+    "image": "/productos/141.png",
+    "category": "carritos"
   },
   {
     "id": 216,
@@ -1941,7 +2156,8 @@
     "price": 38000,
     "transfer": 38000,
     "priceCard": 38000,
-    "image": "/productos/142.png"
+    "image": "/productos/142.png",
+    "category": "carritos"
   },
   {
     "id": 217,
@@ -1950,7 +2166,8 @@
     "price": 96000,
     "transfer": 96000,
     "priceCard": 96000,
-    "image": "/productos/143.png"
+    "image": "/productos/143.png",
+    "category": "carritos"
   },
   {
     "id": 218,
@@ -1959,7 +2176,8 @@
     "price": 67000,
     "transfer": 67000,
     "priceCard": 67000,
-    "image": "/productos/144.png"
+    "image": "/productos/144.png",
+    "category": "juguetes"
   },
   {
     "id": 219,
@@ -1968,7 +2186,8 @@
     "price": 67000,
     "transfer": 67000,
     "priceCard": 67000,
-    "image": "/productos/145.png"
+    "image": "/productos/145.png",
+    "category": "juguetes"
   },
   {
     "id": 220,
@@ -1977,7 +2196,8 @@
     "price": 48000,
     "transfer": 48000,
     "priceCard": 48000,
-    "image": "/productos/146.png"
+    "image": "/productos/146.png",
+    "category": "juguetes"
   },
   {
     "id": 221,
@@ -1986,7 +2206,8 @@
     "price": 48000,
     "transfer": 48000,
     "priceCard": 48000,
-    "image": "/productos/147.png"
+    "image": "/productos/147.png",
+    "category": "juguetes"
   },
   {
     "id": 222,
@@ -1995,7 +2216,8 @@
     "price": 94000,
     "transfer": 94000,
     "priceCard": 94000,
-    "image": "/productos/148.png"
+    "image": "/productos/148.png",
+    "category": "juguetes"
   },
   {
     "id": 223,
@@ -2004,7 +2226,8 @@
     "price": 94000,
     "transfer": 94000,
     "priceCard": 94000,
-    "image": "/productos/149.png"
+    "image": "/productos/149.png",
+    "category": "juguetes"
   },
   {
     "id": 224,
@@ -2013,7 +2236,8 @@
     "price": 40000,
     "transfer": 40000,
     "priceCard": 40000,
-    "image": "/productos/150.png"
+    "image": "/productos/150.png",
+    "category": "juguetes"
   },
   {
     "id": 225,
@@ -2022,7 +2246,8 @@
     "price": 36000,
     "transfer": 36000,
     "priceCard": 36000,
-    "image": "/productos/151.png"
+    "image": "/productos/151.png",
+    "category": "juguetes"
   },
   {
     "id": 226,
@@ -2031,7 +2256,8 @@
     "price": 72000,
     "transfer": 72000,
     "priceCard": 72000,
-    "image": "/productos/152.png"
+    "image": "/productos/152.png",
+    "category": "carritos"
   },
   {
     "id": 227,
@@ -2040,7 +2266,8 @@
     "price": 75000,
     "transfer": 75000,
     "priceCard": 75000,
-    "image": "/productos/153.png"
+    "image": "/productos/153.png",
+    "category": "carritos"
   },
   {
     "id": 228,
@@ -2049,7 +2276,8 @@
     "price": 48000,
     "transfer": 48000,
     "priceCard": 48000,
-    "image": "/productos/154.png"
+    "image": "/productos/154.png",
+    "category": "otros"
   },
   {
     "id": 229,
@@ -2058,7 +2286,8 @@
     "price": 34000,
     "transfer": 34000,
     "priceCard": 34000,
-    "image": "/productos/155.png"
+    "image": "/productos/155.png",
+    "category": "juguetes"
   },
   {
     "id": 230,
@@ -2067,7 +2296,8 @@
     "price": 34000,
     "transfer": 34000,
     "priceCard": 34000,
-    "image": "/productos/156.png"
+    "image": "/productos/156.png",
+    "category": "juguetes"
   },
   {
     "id": 231,
@@ -2076,7 +2306,8 @@
     "price": 34000,
     "transfer": 34000,
     "priceCard": 34000,
-    "image": "/productos/157.png"
+    "image": "/productos/157.png",
+    "category": "carritos"
   },
   {
     "id": 232,
@@ -2085,7 +2316,8 @@
     "price": 34000,
     "transfer": 34000,
     "priceCard": 34000,
-    "image": "/productos/158.png"
+    "image": "/productos/158.png",
+    "category": "carritos"
   },
   {
     "id": 233,
@@ -2094,7 +2326,8 @@
     "price": 34000,
     "transfer": 34000,
     "priceCard": 34000,
-    "image": "/productos/159.png"
+    "image": "/productos/159.png",
+    "category": "carritos"
   },
   {
     "id": 234,
@@ -2103,7 +2336,8 @@
     "price": 74000,
     "transfer": 74000,
     "priceCard": 74000,
-    "image": "/productos/160.png"
+    "image": "/productos/160.png",
+    "category": "juguetes"
   },
   {
     "id": 235,
@@ -2112,7 +2346,8 @@
     "price": 66000,
     "transfer": 66000,
     "priceCard": 66000,
-    "image": "/productos/161.png"
+    "image": "/productos/161.png",
+    "category": "juguetes"
   },
   {
     "id": 236,
@@ -2121,7 +2356,8 @@
     "price": 48000,
     "transfer": 48000,
     "priceCard": 48000,
-    "image": "/productos/162.png"
+    "image": "/productos/162.png",
+    "category": "juguetes"
   },
   {
     "id": 237,
@@ -2130,7 +2366,8 @@
     "price": 72000,
     "transfer": 72000,
     "priceCard": 72000,
-    "image": "/productos/163.png"
+    "image": "/productos/163.png",
+    "category": "juguetes"
   },
   {
     "id": 238,
@@ -2139,7 +2376,8 @@
     "price": 84000,
     "transfer": 84000,
     "priceCard": 84000,
-    "image": "/productos/164.png"
+    "image": "/productos/164.png",
+    "category": "juguetes"
   },
   {
     "id": 239,
@@ -2148,7 +2386,8 @@
     "price": 39000,
     "transfer": 39000,
     "priceCard": 39000,
-    "image": "/productos/165.png"
+    "image": "/productos/165.png",
+    "category": "juguetes"
   },
   {
     "id": 240,
@@ -2157,7 +2396,8 @@
     "price": 40000,
     "transfer": 40000,
     "priceCard": 40000,
-    "image": "/productos/166.png"
+    "image": "/productos/166.png",
+    "category": "juguetes"
   },
   {
     "id": 241,
@@ -2166,7 +2406,8 @@
     "price": 36000,
     "transfer": 36000,
     "priceCard": 36000,
-    "image": "/productos/167.png"
+    "image": "/productos/167.png",
+    "category": "juguetes"
   },
   {
     "id": 242,
@@ -2175,7 +2416,8 @@
     "price": 24000,
     "transfer": 24000,
     "priceCard": 24000,
-    "image": "/productos/168.png"
+    "image": "/productos/168.png",
+    "category": "juguetes"
   },
   {
     "id": 243,
@@ -2184,7 +2426,8 @@
     "price": 125000,
     "transfer": 125000,
     "priceCard": 125000,
-    "image": "/productos/169.png"
+    "image": "/productos/169.png",
+    "category": "juguetes"
   },
   {
     "id": 244,
@@ -2193,7 +2436,8 @@
     "price": 79000,
     "transfer": 79000,
     "priceCard": 79000,
-    "image": "/productos/170.png"
+    "image": "/productos/170.png",
+    "category": "juguetes"
   },
   {
     "id": 245,
@@ -2202,7 +2446,8 @@
     "price": 117000,
     "transfer": 117000,
     "priceCard": 117000,
-    "image": "/productos/171.png"
+    "image": "/productos/171.png",
+    "category": "juguetes"
   },
   {
     "id": 246,
@@ -2211,7 +2456,8 @@
     "price": 127000,
     "transfer": 127000,
     "priceCard": 127000,
-    "image": "/productos/172.png"
+    "image": "/productos/172.png",
+    "category": "juguetes"
   },
   {
     "id": 247,
@@ -2220,7 +2466,8 @@
     "price": 288000,
     "transfer": 288000,
     "priceCard": 288000,
-    "image": "/productos/173.png"
+    "image": "/productos/173.png",
+    "category": "juguetes"
   },
   {
     "id": 248,
@@ -2229,7 +2476,8 @@
     "price": 250000,
     "transfer": 250000,
     "priceCard": 250000,
-    "image": "/productos/174.png"
+    "image": "/productos/174.png",
+    "category": "juguetes"
   },
   {
     "id": 249,
@@ -2238,7 +2486,8 @@
     "price": 284000,
     "transfer": 284000,
     "priceCard": 284000,
-    "image": "/productos/175.png"
+    "image": "/productos/175.png",
+    "category": "juguetes"
   },
   {
     "id": 250,
@@ -2247,7 +2496,8 @@
     "price": 17000,
     "transfer": 17000,
     "priceCard": 17000,
-    "image": "/productos/176.png"
+    "image": "/productos/176.png",
+    "category": "juguetes"
   },
   {
     "id": 251,
@@ -2256,7 +2506,8 @@
     "price": 24000,
     "transfer": 24000,
     "priceCard": 24000,
-    "image": "/productos/177.png"
+    "image": "/productos/177.png",
+    "category": "juguetes"
   },
   {
     "id": 252,
@@ -2265,7 +2516,8 @@
     "price": 27000,
     "transfer": 27000,
     "priceCard": 27000,
-    "image": "/productos/178.png"
+    "image": "/productos/178.png",
+    "category": "juguetes"
   },
   {
     "id": 253,
@@ -2274,7 +2526,8 @@
     "price": 40000,
     "transfer": 40000,
     "priceCard": 40000,
-    "image": "/productos/179.png"
+    "image": "/productos/179.png",
+    "category": "juguetes"
   },
   {
     "id": 254,
@@ -2283,7 +2536,8 @@
     "price": 39000,
     "transfer": 39000,
     "priceCard": 39000,
-    "image": "/productos/180.png"
+    "image": "/productos/180.png",
+    "category": "carritos"
   },
   {
     "id": 255,
@@ -2292,7 +2546,8 @@
     "price": 35000,
     "transfer": 35000,
     "priceCard": 35000,
-    "image": "/productos/181.png"
+    "image": "/productos/181.png",
+    "category": "carritos"
   },
   {
     "id": 256,
@@ -2301,7 +2556,8 @@
     "price": 35000,
     "transfer": 35000,
     "priceCard": 35000,
-    "image": "/productos/182.png"
+    "image": "/productos/182.png",
+    "category": "carritos"
   },
   {
     "id": 257,
@@ -2310,7 +2566,8 @@
     "price": 30000,
     "transfer": 30000,
     "priceCard": 30000,
-    "image": "/productos/183.png"
+    "image": "/productos/183.png",
+    "category": "carritos"
   },
   {
     "id": 258,
@@ -2319,7 +2576,8 @@
     "price": 102000,
     "transfer": 102000,
     "priceCard": 102000,
-    "image": "/productos/184.png"
+    "image": "/productos/184.png",
+    "category": "carritos"
   },
   {
     "id": 259,
@@ -2328,7 +2586,8 @@
     "price": 40000,
     "transfer": 40000,
     "priceCard": 40000,
-    "image": "/productos/185.png"
+    "image": "/productos/185.png",
+    "category": "otros"
   },
   {
     "id": 260,
@@ -2337,7 +2596,8 @@
     "price": 45000,
     "transfer": 45000,
     "priceCard": 45000,
-    "image": "/productos/186.png"
+    "image": "/productos/186.png",
+    "category": "carritos"
   },
   {
     "id": 261,
@@ -2346,7 +2606,8 @@
     "price": 43000,
     "transfer": 43000,
     "priceCard": 43000,
-    "image": "/productos/187.png"
+    "image": "/productos/187.png",
+    "category": "otros"
   },
   {
     "id": 262,
@@ -2355,7 +2616,8 @@
     "price": 48000,
     "transfer": 48000,
     "priceCard": 48000,
-    "image": "/productos/188.png"
+    "image": "/productos/188.png",
+    "category": "otros"
   },
   {
     "id": 263,
@@ -2364,7 +2626,8 @@
     "price": 113000,
     "transfer": 113000,
     "priceCard": 113000,
-    "image": "/productos/189.png"
+    "image": "/productos/189.png",
+    "category": "carritos"
   },
   {
     "id": 264,
@@ -2373,7 +2636,8 @@
     "price": 48000,
     "transfer": 48000,
     "priceCard": 48000,
-    "image": "/productos/190.png"
+    "image": "/productos/190.png",
+    "category": "carritos"
   },
   {
     "id": 265,
@@ -2382,7 +2646,8 @@
     "price": 44000,
     "transfer": 44000,
     "priceCard": 44000,
-    "image": "/productos/191.png"
+    "image": "/productos/191.png",
+    "category": "carritos"
   },
   {
     "id": 266,
@@ -2391,7 +2656,8 @@
     "price": 115000,
     "transfer": 115000,
     "priceCard": 115000,
-    "image": "/productos/192.png"
+    "image": "/productos/192.png",
+    "category": "juguetes"
   },
   {
     "id": 267,
@@ -2400,7 +2666,8 @@
     "price": 17000,
     "transfer": 17000,
     "priceCard": 17000,
-    "image": "/productos/193.png"
+    "image": "/productos/193.png",
+    "category": "carritos"
   },
   {
     "id": 268,
@@ -2409,7 +2676,8 @@
     "price": 55000,
     "transfer": 55000,
     "priceCard": 55000,
-    "image": "/productos/194.png"
+    "image": "/productos/194.png",
+    "category": "carritos"
   },
   {
     "id": 269,
@@ -2418,7 +2686,8 @@
     "price": 75000,
     "transfer": 75000,
     "priceCard": 75000,
-    "image": "/productos/195.png"
+    "image": "/productos/195.png",
+    "category": "carritos"
   },
   {
     "id": 270,
@@ -2427,7 +2696,8 @@
     "price": 95000,
     "transfer": 95000,
     "priceCard": 95000,
-    "image": "/productos/196.png"
+    "image": "/productos/196.png",
+    "category": "carritos"
   },
   {
     "id": 271,
@@ -2436,7 +2706,8 @@
     "price": 85000,
     "transfer": 85000,
     "priceCard": 85000,
-    "image": "/productos/197.png"
+    "image": "/productos/197.png",
+    "category": "carritos"
   },
   {
     "id": 272,
@@ -2445,7 +2716,8 @@
     "price": 123000,
     "transfer": 123000,
     "priceCard": 123000,
-    "image": "/productos/198.png"
+    "image": "/productos/198.png",
+    "category": "carritos"
   },
   {
     "id": 273,
@@ -2454,7 +2726,8 @@
     "price": 206000,
     "transfer": 206000,
     "priceCard": 206000,
-    "image": "/productos/199.png"
+    "image": "/productos/199.png",
+    "category": "carritos"
   },
   {
     "id": 274,
@@ -2463,6 +2736,7 @@
     "price": 359000,
     "transfer": 359000,
     "priceCard": 359000,
-    "image": "/productos/200.png"
+    "image": "/productos/200.png",
+    "category": "carritos"
   }
 ]

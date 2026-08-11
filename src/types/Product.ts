@@ -1,3 +1,10 @@
+export type ProductCategory =
+  | 'panales'
+  | 'perfumeria'
+  | 'carritos'
+  | 'juguetes'
+  | 'otros';
+
 export type Product = {
   id: number;
   name: string;
@@ -6,4 +13,5 @@ export type Product = {
   transfer: number;
   priceCard: number;
   image: string;
+  category: ProductCategory;
 };
