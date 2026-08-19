@@ -23,8 +23,8 @@
     "id": 3,
     "name": "Pañales Babysec Ultra Soft Talle P x50",
     "description": "a",
-    "price": 9500,
-    "transfer": 10000,
+    "price": 10000,
+    "transfer": 10500,
     "priceCard": 14605,
     "image": "/pañales/babysec-ultra-p.png",
     "category": "panales"
@@ -53,8 +53,8 @@
     "id": 6,
     "name": "Pañales Babysec Premium Soft Superpack (M, G, XG, XXG)",
     "description": "a",
-    "price": 0,
-    "transfer": 0,
+    "price": 20500,
+    "transfer": 21500,
     "priceCard": 21850,
     "image": "/pañales/babysec-premium-hiper.jpg",
     "category": "panales"
@@ -63,8 +63,8 @@
     "id": 7,
     "name": "Pañales Babysec Premium Soft Talle P x50",
     "description": "a",
-    "price": 12000,
-    "transfer": 13000,
+    "price": 12800,
+    "transfer": 13500,
     "priceCard": 3565,
     "image": "/pañales/babysec-premium-p.png",
     "category": "panales"
